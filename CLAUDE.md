@@ -26,6 +26,15 @@ Polymarket günlük sıcaklık piyasalarında ("Highest temperature in <city> on
 - Mart 2026'dan sonra piyasaların ~%78'i °C, favori medyan fiyatı 0,35–0,42; v1 bandı (0,60–0,90) etkinliklerin yalnızca %2–6'sına uyuyor.
 - Bu bilgisayardan Polymarket API'leri (gamma/clob/data-api) erişilemez (Türkiye engeli); Open-Meteo erişilebilir. Bu oturumdaki alt agent'lar da yerel makinede çalışıyor (bulut izolasyonu devreye girmedi). Polymarket verisi gerektiren scriptler bu yüzden burada test edilemiyor; dallarda UNTESTED olarak işaretli.
 
+## Zincir üstü veri (HF `SII-WANGZJ/Polymarket_data`, 4 Eki 2026'ya kadar her CLOB dolumu)
+- Polymarket API'leri engelli olduğu için gerçek dolgu verisi buradan alınır. `src/hf_extract.py` -> `../hf_data/ext/weather_trades` (hava piyasalarının tüm dolumları) + `hourly` (tüm piyasalar, saatlik taker alış/satış VWAP). `src/hf_extract_sample.py` -> `sample_trades` (market_id % 20 == 0 piyasaların tüm dolumları). `src/hf_extract_wallets.py` -> `wallets` (cüzdan x piyasa pozisyonları). `../hf_data/markets_meta.parquet`: answer1/2, sonuç, end_date.
+- Alan anlamı (doğrulandı): her satır bir maker dolumu; `taker_direction`/`nonusdc_side`. token1 = answer1 (hava: "Yes"). p1/buy1 token1 cinsinden: taker BUY token1 veya SELL token2 = token1 ask'ı vuruldu.
+- Bu PC (i5-3470, AVX2/BMI2 yok): pyarrow snappy okuma/yazma "Illegal instruction" ile çöker. Parquet'i HER ZAMAN `compression='zstd'` ile yaz. DuckDB sorunsuz.
+- A5 hava gerçek dolgu: favorilerde ilk taker alışı karar fiyatının medyan +0,5 sent (ort. ~+1 sent) üstünde; "p+1 sent" varsayımı gerçekçi.
+- A5b maker (p-d'den 24 saat bekleyen alış, fiyat emrin ALTINDAN işlem görürse dolum): ters seçim güçlü (dolanların kazanma oranı ~%40, dolmayanların ~%49). Walk-forward OOS ROI -%1,2, 10 ayın 7'si zararda -> ÖLÜ.
+- A5b taker (gelecek bilgisi yok, giriş p+1 sent, ücretli): tüm favoriler ~0; 0,40–0,50 +%2,7; 0,60–0,90 ~+%6 (t≈2, ayda ~30 işlem). Bin ve ay bazında zikzak -> gürültüden ayırt edilemiyor.
+- DERS (a6_allmarkets.py GEÇERSİZ): vadeyi "son işlemden önce" tanımlamak ve saatlik taker VWAP'ını giriş fiyatı saymak gelecek bilgisi sızdırır (kripto/spor "son saat" +%10–39 çıktı). Doğru test `src/a7_pit.py`: T = planlanmış end_date - vade, sinyal = T öncesi son işlem, giriş = T+30 sn sonrası ilk gerçek taker dolumu.
+
 ## Araştırma organizasyonu (tüm Polymarket)
 Tek hedef: maliyetler sonrası örnek dışında para kazandıran strateji. Bulut agent'ları ayrı dallarda çalışır, `results/<iş>/summary.md` üretir:
 `analysis-fill-check` (hava piyasası gerçek dolgu fiyatı + çözüm istasyonları), `research/calibration` (tüm kategorilerde kalibrasyon, "bond" işlemi), `research/crypto` (kısa vadeli kripto piyasaları vs spot model), `research/sports` (spor vs Pinnacle kapanış oranları), `research/structural` (negRisk/merdiven arbitrajı, canlı defter taraması), `research/weather-forecast` (Open-Meteo tahmin modeli).

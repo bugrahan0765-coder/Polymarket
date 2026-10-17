@@ -63,3 +63,30 @@ def sim(f, start=50., cap=5., slip=.01, lo=.6, hi=.9, fee=0., cash_limited=True,
 
 def roi(t):
     return t['pnl'].sum() / t['cost'].sum() if len(t) else np.nan
+
+
+# --- all-Polymarket helpers (HF on-chain data) ---
+import re
+# taker fee rate x p(1-p) per share (third-party summaries of the Polymarket fee docs, from 2026-03-30); applied to the whole period
+FEE_RATE = {'crypto': .07, 'sports': .03, 'weather': .05, 'politics': .04, 'finance': .04, 'geopolitics': 0., 'other': .05}
+
+
+def category(event_slug, question, answer1):
+    s = f"{event_slug or ''} {question or ''}".lower(); a = (answer1 or '').lower()
+    if 'temperature' in s or 'weather' in s: return 'weather'
+    if a == 'up' or re.search(r'bitcoin|ethereum|solana|\bxrp\b|\bbtc\b|\beth\b|crypto|dogecoin|\bbnb\b|hyperliquid', s): return 'crypto'
+    if a.startswith('over') or re.search(r'\bvs\.?\b|nba|nfl|mlb|nhl|epl|premier-league|la-liga|serie-a|bundesliga|ligue-1|ucl|uefa|fifa|atp|wta|'
+                                         r'tennis|ufc|esports|lol-|cs2|dota|valorant|spread|o/u', s): return 'sports'
+    if re.search(r'election|president|senate|house|governor|mayor|trump|biden|vance|democrat|republican|parliament|prime-minister|vote|nominee|primary', s): return 'politics'
+    if re.search(r'fed|interest-rate|cpi|inflation|gdp|recession|s-p-500|nasdaq|stock|earnings|tesla|nvidia|apple|ipo|tariff', s): return 'finance'
+    if re.search(r'ukraine|russia|israel|iran|china|taiwan|war|ceasefire|strike|nato|gaza|hamas|military', s): return 'geopolitics'
+    return 'other'
+
+
+def load_meta(hf_dir):
+    m = pd.read_parquet(f'{hf_dir}/markets_meta.parquet')
+    m['win1'] = m['outcome_prices'].map({"['1', '0']": 1, "['0', '1']": 0})
+    m = m[m['win1'].notna() & (m['closed'] == 1)].copy()
+    m['cat'] = [category(a, b, c) for a, b, c in zip(m['event_slug'], m['question'], m['answer1'])]
+    m['end_ts'] = m['end_date'].astype('int64') // 10**9 if str(m['end_date'].dtype).startswith('datetime64[ns') else m['end_date'].map(lambda x: x.timestamp())
+    return m.rename(columns={'id': 'market_id'})
