@@ -1,0 +1,4 @@
+data/raw/
+*.jsonl
+events*.json
+__pycache__/
