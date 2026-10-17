@@ -1,0 +1,503 @@
+{
+ "station": {
+  "nyc": "KLGA",
+  "london": "EGLC",
+  "seoul": "RKSI",
+  "dallas": "KDAL",
+  "toronto": "CYYZ",
+  "atlanta": "KATL",
+  "paris": "LFPB",
+  "ankara": "LTAC",
+  "wellington": "NZWN",
+  "buenos-aires": "SAEZ",
+  "seattle": "KSEA",
+  "sao-paulo": "SBGR",
+  "miami": "KMIA",
+  "chicago": "KORD",
+  "lucknow": "VILK",
+  "munich": "EDDM",
+  "tel-aviv": "LLBG",
+  "tokyo": "RJTT",
+  "shanghai": "ZSPD",
+  "singapore": "WSSS",
+  "hong-kong": "VHHH",
+  "milan": "LIMC",
+  "madrid": "LEMD",
+  "warsaw": "EPWA",
+  "taipei": "RCSS",
+  "chongqing": "ZUCK",
+  "beijing": "ZBAA",
+  "wuhan": "ZHHH",
+  "shenzhen": "ZGSZ",
+  "chengdu": "ZUUU",
+  "denver": "KBKF",
+  "houston": "KHOU",
+  "los-angeles": "KLAX",
+  "san-francisco": "KSFO",
+  "austin": "KAUS",
+  "istanbul": "LTFM",
+  "moscow": "UUWW",
+  "mexico-city": "MMMX",
+  "busan": "RKPK",
+  "amsterdam": "EHAM",
+  "helsinki": "EFHK",
+  "kuala-lumpur": "WMKK",
+  "panama": "MPTO",
+  "jeddah": "OEJN",
+  "cape-town": "FACT",
+  "guangzhou": "ZGGG",
+  "karachi": "OPKC",
+  "manila": "RPLL",
+  "qingdao": "ZSQD",
+  "zhengzhou": "ZHCC",
+  "jinan": "ZSJN",
+  "jakarta": "WIII",
+  "lagos": "DNMM"
+ },
+ "rates": [
+  {
+   "city": "nyc",
+   "icao": "KLGA",
+   "days": 363,
+   "match": 0.107
+  },
+  {
+   "city": "nyc",
+   "icao": "KJFK",
+   "days": 363,
+   "match": 0.069
+  },
+  {
+   "city": "nyc",
+   "icao": "KNYC",
+   "days": 363,
+   "match": 0.096
+  },
+  {
+   "city": "london",
+   "icao": "EGLC",
+   "days": 364,
+   "match": 0.841
+  },
+  {
+   "city": "london",
+   "icao": "EGLL",
+   "days": 364,
+   "match": 0.407
+  },
+  {
+   "city": "seoul",
+   "icao": "RKSI",
+   "days": 312,
+   "match": 0.907
+  },
+  {
+   "city": "seoul",
+   "icao": "RKSS",
+   "days": 312,
+   "match": 0.228
+  },
+  {
+   "city": "dallas",
+   "icao": "KDAL",
+   "days": 312,
+   "match": 0.237
+  },
+  {
+   "city": "dallas",
+   "icao": "KDFW",
+   "days": 312,
+   "match": 0.224
+  },
+  {
+   "city": "toronto",
+   "icao": "CYYZ",
+   "days": 311,
+   "match": 0.994
+  },
+  {
+   "city": "toronto",
+   "icao": "CYTZ",
+   "days": 311,
+   "match": 0.257
+  },
+  {
+   "city": "atlanta",
+   "icao": "KATL",
+   "days": 309,
+   "match": 0.178
+  },
+  {
+   "city": "paris",
+   "icao": "LFPG",
+   "days": 242,
+   "match": 0.694
+  },
+  {
+   "city": "paris",
+   "icao": "LFPO",
+   "days": 242,
+   "match": 0.587
+  },
+  {
+   "city": "paris",
+   "icao": "LFPB",
+   "days": 242,
+   "match": 0.893
+  },
+  {
+   "city": "ankara",
+   "icao": "LTAC",
+   "days": 265,
+   "match": 0.996
+  },
+  {
+   "city": "wellington",
+   "icao": "NZWN",
+   "days": 265,
+   "match": 1.0
+  },
+  {
+   "city": "buenos-aires",
+   "icao": "SAEZ",
+   "days": 309,
+   "match": 0.997
+  },
+  {
+   "city": "buenos-aires",
+   "icao": "SABE",
+   "days": 309,
+   "match": 0.278
+  },
+  {
+   "city": "seattle",
+   "icao": "KSEA",
+   "days": 308,
+   "match": 0.153
+  },
+  {
+   "city": "sao-paulo",
+   "icao": "SBGR",
+   "days": 239,
+   "match": 0.987
+  },
+  {
+   "city": "sao-paulo",
+   "icao": "SBSP",
+   "days": 239,
+   "match": 0.222
+  },
+  {
+   "city": "miami",
+   "icao": "KMIA",
+   "days": 265,
+   "match": 0.045
+  },
+  {
+   "city": "chicago",
+   "icao": "KORD",
+   "days": 265,
+   "match": 0.219
+  },
+  {
+   "city": "chicago",
+   "icao": "KMDW",
+   "days": 265,
+   "match": 0.2
+  },
+  {
+   "city": "lucknow",
+   "icao": "VILK",
+   "days": 224,
+   "match": 0.996
+  },
+  {
+   "city": "munich",
+   "icao": "EDDM",
+   "days": 224,
+   "match": 0.996
+  },
+  {
+   "city": "tel-aviv",
+   "icao": "LLBG",
+   "days": 219,
+   "match": 0.995
+  },
+  {
+   "city": "tokyo",
+   "icao": "RJTT",
+   "days": 219,
+   "match": 0.995
+  },
+  {
+   "city": "shanghai",
+   "icao": "ZSPD",
+   "days": 216,
+   "match": 1.0
+  },
+  {
+   "city": "shanghai",
+   "icao": "ZSSS",
+   "days": 216,
+   "match": 0.204
+  },
+  {
+   "city": "singapore",
+   "icao": "WSSS",
+   "days": 216,
+   "match": 0.995
+  },
+  {
+   "city": "hong-kong",
+   "icao": "VHHH",
+   "days": 213,
+   "match": 0.272
+  },
+  {
+   "city": "milan",
+   "icao": "LIMC",
+   "days": 213,
+   "match": 0.981
+  },
+  {
+   "city": "milan",
+   "icao": "LIML",
+   "days": 213,
+   "match": 0.31
+  },
+  {
+   "city": "madrid",
+   "icao": "LEMD",
+   "days": 213,
+   "match": 0.981
+  },
+  {
+   "city": "warsaw",
+   "icao": "EPWA",
+   "days": 213,
+   "match": 0.986
+  },
+  {
+   "city": "taipei",
+   "icao": "RCTP",
+   "days": 213,
+   "match": 0.254
+  },
+  {
+   "city": "taipei",
+   "icao": "RCSS",
+   "days": 213,
+   "match": 0.915
+  },
+  {
+   "city": "chongqing",
+   "icao": "ZUCK",
+   "days": 209,
+   "match": 0.976
+  },
+  {
+   "city": "beijing",
+   "icao": "ZBAA",
+   "days": 209,
+   "match": 0.976
+  },
+  {
+   "city": "beijing",
+   "icao": "ZBAD",
+   "days": 209,
+   "match": 0.383
+  },
+  {
+   "city": "wuhan",
+   "icao": "ZHHH",
+   "days": 209,
+   "match": 0.981
+  },
+  {
+   "city": "shenzhen",
+   "icao": "ZGSZ",
+   "days": 209,
+   "match": 0.431
+  },
+  {
+   "city": "chengdu",
+   "icao": "ZUUU",
+   "days": 208,
+   "match": 0.99
+  },
+  {
+   "city": "chengdu",
+   "icao": "ZUTF",
+   "days": 208,
+   "match": 0.264
+  },
+  {
+   "city": "denver",
+   "icao": "KDEN",
+   "days": 204,
+   "match": 0.196
+  },
+  {
+   "city": "denver",
+   "icao": "KBKF",
+   "days": 204,
+   "match": 0.211
+  },
+  {
+   "city": "houston",
+   "icao": "KHOU",
+   "days": 203,
+   "match": 0.133
+  },
+  {
+   "city": "houston",
+   "icao": "KIAH",
+   "days": 203,
+   "match": 0.118
+  },
+  {
+   "city": "los-angeles",
+   "icao": "KLAX",
+   "days": 203,
+   "match": 0.059
+  },
+  {
+   "city": "san-francisco",
+   "icao": "KSFO",
+   "days": 203,
+   "match": 0.118
+  },
+  {
+   "city": "austin",
+   "icao": "KAUS",
+   "days": 202,
+   "match": 0.188
+  },
+  {
+   "city": "istanbul",
+   "icao": "LTFM",
+   "days": 200,
+   "match": 1.0
+  },
+  {
+   "city": "istanbul",
+   "icao": "LTBA",
+   "days": 200,
+   "match": 0.095
+  },
+  {
+   "city": "moscow",
+   "icao": "UUEE",
+   "days": 199,
+   "match": 0.538
+  },
+  {
+   "city": "moscow",
+   "icao": "UUWW",
+   "days": 199,
+   "match": 0.945
+  },
+  {
+   "city": "moscow",
+   "icao": "UUDD",
+   "days": 199,
+   "match": 0.407
+  },
+  {
+   "city": "mexico-city",
+   "icao": "MMMX",
+   "days": 197,
+   "match": 0.995
+  },
+  {
+   "city": "busan",
+   "icao": "RKPK",
+   "days": 196,
+   "match": 0.995
+  },
+  {
+   "city": "amsterdam",
+   "icao": "EHAM",
+   "days": 196,
+   "match": 1.0
+  },
+  {
+   "city": "helsinki",
+   "icao": "EFHK",
+   "days": 196,
+   "match": 1.0
+  },
+  {
+   "city": "kuala-lumpur",
+   "icao": "WMKK",
+   "days": 196,
+   "match": 1.0
+  },
+  {
+   "city": "panama",
+   "icao": "MPTO",
+   "days": 193,
+   "match": 0.487
+  },
+  {
+   "city": "jeddah",
+   "icao": "OEJN",
+   "days": 190,
+   "match": 1.0
+  },
+  {
+   "city": "cape-town",
+   "icao": "FACT",
+   "days": 187,
+   "match": 1.0
+  },
+  {
+   "city": "guangzhou",
+   "icao": "ZGGG",
+   "days": 183,
+   "match": 0.995
+  },
+  {
+   "city": "karachi",
+   "icao": "OPKC",
+   "days": 183,
+   "match": 1.0
+  },
+  {
+   "city": "manila",
+   "icao": "RPLL",
+   "days": 183,
+   "match": 0.995
+  },
+  {
+   "city": "qingdao",
+   "icao": "ZSQD",
+   "days": 174,
+   "match": 0.994
+  },
+  {
+   "city": "zhengzhou",
+   "icao": "ZHCC",
+   "days": 56,
+   "match": 1.0
+  },
+  {
+   "city": "jinan",
+   "icao": "ZSJN",
+   "days": 3,
+   "match": 1.0
+  },
+  {
+   "city": "jakarta",
+   "icao": "WIII",
+   "days": 47,
+   "match": 0.128
+  },
+  {
+   "city": "lagos",
+   "icao": "DNMM",
+   "days": 35,
+   "match": 0.971
+  }
+ ]
+}

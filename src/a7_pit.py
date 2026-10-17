@@ -16,7 +16,7 @@ meta = load_meta(HF)
 meta = meta[pd.to_numeric(meta['market_id'], errors='coerce') % 20 == 0][['market_id', 'cat', 'win1', 'end_ts', 'neg_risk', 'volume']]
 c = duckdb.connect()
 c.register('meta_df', meta)
-c.execute(f"create table f as select market_id, timestamp ts, p1, buy1, usd_amount usd from read_parquet('{HF}/ext/sample_trades/*.parquet') order by market_id, ts")
+c.execute(f"create table f as select market_id, timestamp ts, p1, buy1, usd_amount usd from read_parquet('{HF}/ext/sample_trades/*.parquet', union_by_name=true) order by market_id, ts")
 c.execute("create table span as select market_id, min(ts) t0, max(ts) t1 from f group by market_id")
 snaps = ' union all '.join(f"select market_id, '{k}' horizon, cast(end_ts as bigint) - {v} T from meta_df" for k, v in HORIZONS.items())
 c.execute(f"create table s as select q.* from ({snaps}) q join span using (market_id) where q.T > span.t0")

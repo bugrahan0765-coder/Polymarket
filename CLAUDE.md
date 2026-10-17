@@ -35,6 +35,10 @@ Polymarket günlük sıcaklık piyasalarında ("Highest temperature in <city> on
 - A5b taker (gelecek bilgisi yok, giriş p+1 sent, ücretli): tüm favoriler ~0; 0,40–0,50 +%2,7; 0,60–0,90 ~+%6 (t≈2, ayda ~30 işlem). Bin ve ay bazında zikzak -> gürültüden ayırt edilemiyor.
 - DERS (a6_allmarkets.py GEÇERSİZ): vadeyi "son işlemden önce" tanımlamak ve saatlik taker VWAP'ını giriş fiyatı saymak gelecek bilgisi sızdırır (kripto/spor "son saat" +%10–39 çıktı). Doğru test `src/a7_pit.py`: T = planlanmış end_date - vade, sinyal = T öncesi son işlem, giriş = T+30 sn sonrası ilk gerçek taker dolumu.
 
+- A9/A10 hava gün içi (`a9_weather_intraday.py`, `a10_evening_lock.py`): yerel 18:00'de >=0,98 aralıklar %99,89 kazanır (9.088'de 10 kayıp), ama gerçekçi giriş ~0,996 -> işlem başı +%0,2–0,4 ("akşam kilidi", ince, büyük olasılıkla botlarca sömürülüyor). "Giriş <=0,995" filtresi +%1,1 gösteriyordu; bu fiyat seçimi etkisiydi.
+- A11 METAR (`a11_metar_fetch.py`: Iowa Mesonet, ücretsiz, erişilebilir; `a11_obs_lag.py`): istasyon eşlemesi veriden çıkarılır, 37 şehirde >=%85 eşleşme (`results/a11_stations.json`). Gözlenen maksimuma göre "ölü" aralıklarda NO avantaj yok, piyasa daha iyi bilgili. Kilitlenme modeli YES H2 +%10 (t≈1,9), NO -%25 -> sağlam değil.
+- HAVA SONUCU: tahmin, gözlem ve zaman bilgisine karşı piyasa verimli; maliyet sonrası sağlam avantaj yok (akşam kilidi hariç, ince).
+
 ## Araştırma organizasyonu (tüm Polymarket)
 Tek hedef: maliyetler sonrası örnek dışında para kazandıran strateji. Bulut agent'ları ayrı dallarda çalışır, `results/<iş>/summary.md` üretir:
 `analysis-fill-check` (hava piyasası gerçek dolgu fiyatı + çözüm istasyonları), `research/calibration` (tüm kategorilerde kalibrasyon, "bond" işlemi), `research/crypto` (kısa vadeli kripto piyasaları vs spot model), `research/sports` (spor vs Pinnacle kapanış oranları), `research/structural` (negRisk/merdiven arbitrajı, canlı defter taraması), `research/weather-forecast` (Open-Meteo tahmin modeli).
