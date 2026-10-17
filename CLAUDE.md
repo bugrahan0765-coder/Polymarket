@@ -18,6 +18,19 @@ Polymarket günlük sıcaklık piyasalarında ("Highest temperature in <city> on
 - Tüm favoriler (banttan bağımsız): fiyatı 0,6–0,7 olanların %70,7'si, 0,7–0,8 olanların %80,9'u kazandı (piyasa favoriyi hafif düşük fiyatlıyor olabilir).
 - Ayrıntı: `results/backtest_v1_results.json`.
 
+## Analiz bulguları (17 Eki 2026, `src/analysis_lib.py` + `src/a1..a3_*.py`, sonuçlar `results/a*.json`)
+- `analysis_lib.py` v1'i bağımsız yeniden uygular ve aynı sonucu verir (505 işlem, 248,60 $). Yeni analizler bunu kullanır; `PYTHONPATH=src python src/a1_sensitivity.py`.
+- A1 kayma/ücret: başa baş kayma ~4 sent/pay (sabit 5 $ stake, ücret 0). 2 sent -> ROI %4,5; 3 sent -> %1,7. Tarih/hafta/ay kümeli bootstrap CI'yi genişletmiyor (~%2,6–%12,8).
+- A2 walk-forward (bant geçmiş aylarda seçilir, sonraki ayda test, Oca–Eki 2026): 1 sent kaymada OOS ROI %4,8–7,4; 2 sentte %2,1–3,8. İlk 6 ay seç/son 6 ay test: 0,60–0,75 bandı, ROI %6,8 (1 sent) / %3,5 (2 sent).
+- A3 kalibrasyon: favoriler 0,30–0,95 boyunca düşük fiyatlı (0,40–0,50 bandı n=2588: fiyat %44, kazanma %47,3). Etkinlik başına fiyat toplamı ~1,05–1,07. Uç aralıklara NO almak maliyet sonrası ~0. Şehir farkları ~±5 puan standart hata içinde -> büyük ölçüde gürültü.
+- Mart 2026'dan sonra piyasaların ~%78'i °C, favori medyan fiyatı 0,35–0,42; v1 bandı (0,60–0,90) etkinliklerin yalnızca %2–6'sına uyuyor.
+- Bu bilgisayardan Polymarket API'leri (gamma/clob/data-api) erişilemez (Türkiye engeli); Open-Meteo erişilebilir. Polymarket verisi bulut agent'larıyla çekilir.
+
+## Araştırma organizasyonu (tüm Polymarket)
+Tek hedef: maliyetler sonrası örnek dışında para kazandıran strateji. Bulut agent'ları ayrı dallarda çalışır, `results/<iş>/summary.md` üretir:
+`analysis-fill-check` (hava piyasası gerçek dolgu fiyatı + çözüm istasyonları), `research/calibration` (tüm kategorilerde kalibrasyon, "bond" işlemi), `research/crypto` (kısa vadeli kripto piyasaları vs spot model), `research/sports` (spor vs Pinnacle kapanış oranları), `research/structural` (negRisk/merdiven arbitrajı, canlı defter taraması), `research/weather-forecast` (Open-Meteo tahmin modeli).
+Ortak protokol: gerçekçi giriş (taker işlemleri/defter), güncel ücretler, walk-forward, kümeli bootstrap, kapasite; olumsuz sonuç da raporlanır. Sadece okuma: emir, cüzdan, API anahtarı yok.
+
 ## KRİTİK sınırlamalar
 - CLOB `prices-history` serisi son işlem/orta fiyattır, GERÇEK ask değil. Dolgu fiyatı doğrulanmadı. Gerçek ask/derinlik toplanmadan sonuç iyimser kabul edilmeli.
 - Bant (0,60–0,90) ve 24 saat kuralı eski bir Codex sohbetinden miras; aynı veride seçildiği için örnek içi sonuç şişkin olabilir. Walk-forward / out-of-sample henüz yok.
