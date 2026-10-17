@@ -24,7 +24,7 @@ Polymarket günlük sıcaklık piyasalarında ("Highest temperature in <city> on
 - A2 walk-forward (bant geçmiş aylarda seçilir, sonraki ayda test, Oca–Eki 2026): 1 sent kaymada OOS ROI %4,8–7,4; 2 sentte %2,1–3,8. İlk 6 ay seç/son 6 ay test: 0,60–0,75 bandı, ROI %6,8 (1 sent) / %3,5 (2 sent).
 - A3 kalibrasyon: favoriler 0,30–0,95 boyunca düşük fiyatlı (0,40–0,50 bandı n=2588: fiyat %44, kazanma %47,3). Etkinlik başına fiyat toplamı ~1,05–1,07. Uç aralıklara NO almak maliyet sonrası ~0. Şehir farkları ~±5 puan standart hata içinde -> büyük ölçüde gürültü.
 - Mart 2026'dan sonra piyasaların ~%78'i °C, favori medyan fiyatı 0,35–0,42; v1 bandı (0,60–0,90) etkinliklerin yalnızca %2–6'sına uyuyor.
-- Bu bilgisayardan Polymarket API'leri (gamma/clob/data-api) erişilemez (Türkiye engeli); Open-Meteo erişilebilir. Polymarket verisi bulut agent'larıyla çekilir.
+- Bu bilgisayardan Polymarket API'leri (gamma/clob/data-api) erişilemez (Türkiye engeli); Open-Meteo erişilebilir. Bu oturumdaki alt agent'lar da yerel makinede çalışıyor (bulut izolasyonu devreye girmedi). Polymarket verisi gerektiren scriptler bu yüzden burada test edilemiyor; dallarda UNTESTED olarak işaretli.
 
 ## Araştırma organizasyonu (tüm Polymarket)
 Tek hedef: maliyetler sonrası örnek dışında para kazandıran strateji. Bulut agent'ları ayrı dallarda çalışır, `results/<iş>/summary.md` üretir:
