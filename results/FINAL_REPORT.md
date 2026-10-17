@@ -17,6 +17,9 @@ ilk yarıda seçim / ikinci yarıda (H2, Haziran–Ekim 2026) test, piyasa küme
 | Akıllı cüzdan kopyalama | Ölü | Beceri var ama kopyalanabilir değil: tüm seçimlerde −%4..−9 |
 | **Kripto up/down vs Binance spot gecikmesi** | **Tek sağlam pozitif** | H2 +%1,5/işlem, küçük kapasite, hız yarışı |
 
+| Kripto fiyat basamakları ("Bitcoin above K", aralıklar) vs Binance modeli | Taker için ölü | Model piyasadan iyi ama taker dolumu seyrek ve negatif |
+| Kim kazanıyor? | Spor | Kalıcı kazananlar spor yönlü bahisçiler (+%10–30); test için dış oran verisi gerekli (football-data engelli) |
+
 ## En iyi strateji: kripto up/down "spot gecikmesi"
 
 Piyasalar: `btc|eth|sol|xrp|doge|bnb-updown-5m|15m-<başlangıç_unix>` ("Up or Down", çözüm Chainlink; Binance ile %95,5 uyumlu).

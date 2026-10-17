@@ -1,0 +1,28 @@
+142,503 ladder markets; kinds {'above': 125603, 'between': 14968, 'below': 1932}
+resolution agreement:
+                         close_at_end  candle_starting_end     n
+fam                                                             
+above-on-MON-#                 0.9971               0.9985  1378
+above-on-MON-#-#               0.9974               1.0000   391
+above-on-MON-#-#-#am-et        1.0000               0.9949  7445
+above-on-MON-#-#-#pm-et        1.0000               0.9946  7014
+above-on-MON-#-#am-et          0.9706               1.0000    68
+above-on-MON-#-#pm-et          0.9857               1.0000    70
+multistrike-#h-#               0.9963               1.0000   802
+price-MON-#-#am-et             0.9843               1.0000   381
+price-MON-#-#pm-et             0.9806               0.9972   361
+price-on-MON-#                 0.9912               0.9968  1244
+price-on-MON-#-#               1.0000               1.0000   410
+calibration beta [-0.158  0.862]
+H1: win1 ~ logit(mkt) 0.469 + logit(model) 0.463   n=5845
+H2: win1 ~ logit(mkt) 0.234 + logit(model) 0.832   n=5382
+Brier: model {'H1': 0.0229, 'H2': 0.0156}  market {'H1': 0.0244, 'H2': 0.0207}
+
+=== rules: H1 vs H2 (model fitted on H1) ===
+                             n_H1  n_H2  roi_H1  roi_H2   se_H1   se_H2
+delay thr  band     horizon                                            
+10    0.03 0.02-0.5 15m      20.0  59.0  0.8917 -0.1149  1.1419  0.3143
+                    1h       22.0  72.0 -0.6550 -0.4539  0.2933  0.2077
+60    0.03 0.02-0.5 15m      23.0  62.0  0.6379 -0.0600  0.9994  0.3093
+                    1h       24.0  67.0 -0.3686 -0.4519  0.3682  0.2198
+      0.05 0.02-0.5 1h       20.0  59.0 -0.2334 -0.4265  0.4372  0.2439

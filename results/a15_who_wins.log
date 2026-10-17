@@ -1,0 +1,179 @@
+   wallets   winners     total_pnl   winners_pnl    losers_pnl
+0  1854162  693652.0  4.396227e+07  9.185813e+08 -8.746190e+08
+   n_persistent  active_both  won_a
+0          6529        34844  14460
+    taker_bucket     n  p_win_b_given_a        pnl_b
+0            0.0  2154         0.243733   2521871.45
+1            0.1  1332         0.503003   -381135.76
+2            0.2  1218         0.482759   3924146.37
+3            0.3  1231         0.460601   4849314.19
+4            0.4  1174         0.485520   2848756.20
+5            0.5  1078         0.495362   3687372.46
+6            0.6   900         0.473333     45526.84
+7            0.7   811         0.488286  11781195.41
+8            0.8   857         0.430572   -690862.72
+9            0.9  1060         0.412264   2042381.48
+10           1.0  2645         0.547070   2516533.34
+
+=== test period PnL by category x style x role: persistent winners ===
+        cat2       style mrole  positions          vol         pnl     roi
+      sports directional taker     177019 1.250328e+08 18070907.63  0.1445
+       other directional taker      72140 5.236567e+07 11166014.07  0.2132
+      sports directional maker     705568 9.101948e+08 11159599.30  0.0123
+crypto_short directional maker    2427901 4.248116e+08  3451014.21  0.0081
+crypto_short directional taker     794372 3.863271e+07  2827880.93  0.0732
+       other directional maker     300643 3.022931e+08  2761020.55  0.0091
+    politics directional maker      36150 5.177526e+07  2256016.19  0.0436
+      crypto directional maker    1000314 1.272162e+08  2160737.85  0.0170
+      crypto directional taker     391617 2.349359e+07  2097780.37  0.0893
+ geopolitics directional taker      15306 1.798791e+07  1862312.50  0.1035
+     finance directional maker      10543 2.684775e+07  1711889.52  0.0638
+      sports        flat taker      18748 6.530745e+06  1567937.60  0.2401
+ geopolitics directional maker      21302 5.800518e+07   613293.04  0.0106
+       other        flat maker      39470 1.549147e+07   498621.02  0.0322
+      sports        flat maker      56187 2.264851e+07   481267.28  0.0212
+     weather        flat maker      32330 1.794702e+06   376570.86  0.2098
+    politics directional taker      18091 1.386435e+07   354506.67  0.0256
+     finance directional taker       4177 2.161616e+06   277140.29  0.1282
+crypto_short        flat taker      36898 1.571341e+06   162473.44  0.1034
+ geopolitics        flat maker       8409 1.109919e+07   141979.16  0.0128
+       other        flat taker       9902 1.706235e+06   129808.70  0.0761
+      crypto        flat taker      29794 9.256554e+05   117106.62  0.1265
+    politics        flat maker      11046 1.250655e+07   114301.86  0.0091
+     weather directional taker      91203 3.489241e+06    62915.20  0.0180
+      crypto        flat maker      50480 6.218056e+06    53868.00  0.0087
+     weather        flat taker       9261 5.311703e+05    48307.46  0.0909
+ geopolitics        flat taker       1884 2.499945e+06    44317.94  0.0177
+    politics        flat taker       2359 7.953503e+05    12334.62  0.0155
+     finance        flat maker       2544 2.000441e+06     7615.06  0.0038
+     finance        flat taker        463 3.917980e+05    -3195.69 -0.0082
+crypto_short        flat maker      57784 2.590928e+06   -84875.78 -0.0328
+     weather directional maker     166626 1.032202e+07  -110389.18 -0.0107
+
+=== test period PnL by category x style x role: everyone ===
+        cat2       style mrole  positions          vol          pnl     roi
+      sports        flat taker     648521 7.602229e+07  21153160.81  0.2782
+       other directional taker     844987 2.363115e+08  15239864.24  0.0645
+      sports directional taker    2102658 6.407589e+08  11315920.89  0.0177
+crypto_short directional maker   21140172 1.525425e+09   8239962.69  0.0054
+ geopolitics directional taker     201614 7.418929e+07   7723979.36  0.1041
+     finance directional maker      58971 6.585461e+07   6769781.42  0.1028
+      sports        flat maker     346595 1.344093e+08   4794418.94  0.0357
+    politics directional maker     178956 1.398423e+08   4380816.68  0.0313
+crypto_short directional taker    7759824 1.773341e+08   2141524.42  0.0121
+       other        flat taker     371985 2.330812e+07   1702829.69  0.0731
+crypto_short        flat taker     739111 9.469655e+06   1450948.42  0.1532
+      crypto        flat taker     633795 7.625108e+06   1076927.30  0.1412
+       other        flat maker     270795 7.882414e+07    934876.12  0.0119
+ geopolitics        flat maker      56729 3.184570e+07    834065.58  0.0262
+      crypto        flat maker     675303 2.686150e+07    677633.39  0.0252
+     weather        flat maker     255173 8.435266e+06    555638.63  0.0659
+      crypto directional maker   11784169 4.843084e+08    309661.89  0.0006
+     weather        flat taker     121189 2.529640e+06    282489.89  0.1117
+    politics        flat maker      88776 4.008776e+07    158484.12  0.0040
+     finance        flat taker      11438 2.075301e+06   -117531.83 -0.0566
+    politics        flat taker     101065 1.114500e+07   -128542.16 -0.0115
+crypto_short        flat maker     911685 2.241602e+07   -154626.16 -0.0069
+ geopolitics        flat taker      51498 1.053830e+07   -406672.87 -0.0386
+     finance        flat maker      19479 8.309880e+06   -409959.79 -0.0493
+     weather directional taker     838833 2.296380e+07   -467580.42 -0.0204
+     weather directional maker    1506985 5.483136e+07   -593291.10 -0.0108
+    politics directional taker     194304 6.838683e+07  -4172507.51 -0.0610
+     finance directional taker      47770 2.793359e+07  -5672622.25 -0.2031
+ geopolitics directional maker     119204 1.567219e+08  -7397448.70 -0.0472
+      crypto directional taker    5068845 9.854675e+07 -10118470.93 -0.1027
+       other directional maker    1486326 9.049425e+08 -15620436.42 -0.0173
+      sports directional maker    4965080 3.440586e+09 -25473568.91 -0.0074
+
+=== top persistent winners ===
+                                    wallet     n_a      n_b     pnl_a      pnl_b         vol  taker
+0x204f72f35326db932158cba6adff0b9a1da95e14 53651.0  39577.0 5516564.0 11634158.0 187858433.0   0.66
+0x2005d16a84ceefa912d4e380cd32e7ff827875ea 40320.0  59869.0 6232823.0  2544781.0 369828402.0   0.15
+0x2c335066fe58fe9237c3d3dc7b275c2a034a0563  1967.0   3971.0 1219327.0  1416092.0 272861021.0   0.30
+0x03e8a544e97eeff5753bc1e90d46e5ef22af1697   528.0     52.0 1268017.0  1121862.0  38113577.0   0.28
+0xc2e7800b5af46e6093872b177b7a5e7f0563be51   123.0     41.0 4794730.0   915776.0   9460561.0   0.93
+0xeebde7a0e019a63e6b476eb425505b7b3e6eba30  4764.0 119686.0  146907.0   815876.0  72180967.0   0.49
+0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c  5348.0   3756.0    1100.0   726352.0  10653277.0   0.39
+0xd9e0aaca471f489be338fd0f91a26e8669a805f2  6744.0  10602.0  583330.0   602995.0  56094488.0   0.09
+0xc8ab97a9089a9ff7e6ef0688e6e591a066946418 13210.0   6737.0   28317.0   597638.0  85589557.0   0.08
+0xd3b034d7bfb2473fb252d0414646d9786bac329e   743.0    925.0   14292.0   586718.0   4491858.0   0.46
+0x9cb990f1862568a63d8601efeebe0304225c32f2   975.0    657.0  912730.0   583418.0  13712136.0   0.48
+0xf705fa045201391d9632b7f3cde06a5e24453ca7   964.0    391.0 1684164.0   578622.0  11274941.0   0.97
+0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029   281.0   1013.0 1431923.0   537216.0   3680484.0   0.40
+0xf68a281980f8c13828e84e147e3822381d6e5b1b  5798.0   1831.0  516655.0   524410.0  39076803.0   0.21
+0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1   123.0     48.0    7214.0   501399.0    334768.0   1.00
+0xc8075693f48668a264b9fa313b47f52712fcc12b    76.0    286.0  222740.0   476816.0  10126573.0   0.47
+0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5  2001.0    969.0  597919.0   463129.0  12358448.0   0.38
+0x73c5701afdefba2814193168448b2992306b2f80   343.0    341.0   58161.0   458258.0  10270338.0   0.27
+0x6d3c5bd13984b2de47c3a88ddc455309aab3d294  8253.0  67894.0  174134.0   418302.0 105487527.0   0.05
+0x32ed517a571c01b6e9adecf61ba81ca48ff2f960  1897.0   2258.0  259984.0   375984.0   4372465.0   0.70
+0xfc0847fe2ea938d6e2624650eb29ef8d8142a137   186.0    291.0   24976.0   375730.0    870699.0   0.94
+0x31864feb9d25dee93728c6225ba891530967e9ca   371.0    772.0   90430.0   350025.0   2511284.0   0.81
+0xab51c55eb5cefec49c52a174acc10b3cd69e2473   155.0    244.0   20460.0   333739.0    157713.0   0.50
+0xafd492974cd531aae7786210438ae46b42047e61   697.0    719.0  111865.0   323891.0   6542989.0   0.20
+0xe72bb501df5306c75c89383d48a1e81073fbb0a0   356.0    202.0  367939.0   313016.0   7751477.0   0.37
+0x10ff6cd4b1b5669d4ca87faebae0c869ad315088   978.0    459.0    4964.0   312812.0   3363575.0   0.43
+0xd1ed12197b7dc22dede923727e9b714024dbd7cb  5709.0  11230.0   29680.0   311321.0   7322947.0   0.66
+0x84dbb7103982e3617704a2ed7d5b39691952aeeb  1250.0    139.0 1301591.0   294726.0  27899656.0   0.15
+0xdaef2be2a19ad331737d06545f85615b094554e9   189.0    450.0   67192.0   288234.0   3511855.0   0.29
+0xde9f7f4e77a1595623ceb58e469f776257ccd43c  1416.0   3201.0  324256.0   285771.0   3689846.0   0.90
+                                    wallet         cat2       style      n       pnl     roi  taker
+0x03e8a544e97eeff5753bc1e90d46e5ef22af1697       sports directional     40  823991.0  0.2711   0.34
+0x03e8a544e97eeff5753bc1e90d46e5ef22af1697  geopolitics directional      1  282198.0  2.3122   1.00
+0x10ff6cd4b1b5669d4ca87faebae0c869ad315088       sports directional    194  290239.0  0.2947   0.76
+0x10ff6cd4b1b5669d4ca87faebae0c869ad315088        other directional    250   28546.0  0.0189   0.42
+0x2005d16a84ceefa912d4e380cd32e7ff827875ea       sports directional  46562 1948275.0  0.0113   0.17
+0x2005d16a84ceefa912d4e380cd32e7ff827875ea        other directional  12944  620780.0  0.0185   0.09
+0x204f72f35326db932158cba6adff0b9a1da95e14       sports directional  30059 6270293.0  0.1191   0.65
+0x204f72f35326db932158cba6adff0b9a1da95e14        other directional   9132 5541924.0  0.1946   0.52
+0x2c335066fe58fe9237c3d3dc7b275c2a034a0563        other directional    387 1742374.0  0.0234   0.43
+0x2c335066fe58fe9237c3d3dc7b275c2a034a0563       sports directional   3551  187915.0  0.0011   0.38
+0x31864feb9d25dee93728c6225ba891530967e9ca       sports directional    767  351859.0  0.1729   0.70
+0x31864feb9d25dee93728c6225ba891530967e9ca       sports        flat      5   -1834.0 -0.3046   0.78
+0x32ed517a571c01b6e9adecf61ba81ca48ff2f960       sports directional   2243  314237.0  0.1737   0.44
+0x32ed517a571c01b6e9adecf61ba81ca48ff2f960        other directional      6   63711.0  0.4362   0.17
+0x6d3c5bd13984b2de47c3a88ddc455309aab3d294       sports directional  38068  340439.0  0.0125   0.03
+0x6d3c5bd13984b2de47c3a88ddc455309aab3d294       sports        flat   8358   51405.0  0.0074   0.07
+0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c       sports directional   3554  678704.0  0.0716   0.57
+0x6e2c0e9474af7d720e5aba2a5b0bb6f723b7787c       sports        flat    202   47648.0  0.0556   0.56
+0x73c5701afdefba2814193168448b2992306b2f80        other directional    146  253997.0  0.0461   0.37
+0x73c5701afdefba2814193168448b2992306b2f80       sports directional    158  105354.0  0.0538   0.28
+0x84dbb7103982e3617704a2ed7d5b39691952aeeb       sports directional    135  322524.0  0.1182   0.12
+0x84dbb7103982e3617704a2ed7d5b39691952aeeb  geopolitics directional      1   21600.0  1.1739   0.00
+0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5       sports directional    905  503760.0  0.0916   0.33
+0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5       sports        flat     42    3753.0  0.0239   0.12
+0x9cb990f1862568a63d8601efeebe0304225c32f2       sports directional    599  381818.0  0.1682   0.70
+0x9cb990f1862568a63d8601efeebe0304225c32f2       sports        flat      7  146506.0  1.2218   0.36
+0xab51c55eb5cefec49c52a174acc10b3cd69e2473       crypto directional    155  283299.0  7.7632   0.50
+0xab51c55eb5cefec49c52a174acc10b3cd69e2473       crypto        flat      6   69454.0 29.8597   0.33
+0xafd492974cd531aae7786210438ae46b42047e61       sports directional    701  298676.0  0.0743   0.09
+0xafd492974cd531aae7786210438ae46b42047e61       sports        flat     13   36941.0  0.6830   0.67
+0xc2e7800b5af46e6093872b177b7a5e7f0563be51        other directional     19 1430865.0 13.9558   0.96
+0xc2e7800b5af46e6093872b177b7a5e7f0563be51       sports directional     22 -515089.0 -2.0619   0.90
+0xc8075693f48668a264b9fa313b47f52712fcc12b       sports directional    286  476816.0  0.1018   0.46
+0xc8ab97a9089a9ff7e6ef0688e6e591a066946418      finance directional    277  734562.0  0.9271   0.03
+0xc8ab97a9089a9ff7e6ef0688e6e591a066946418       sports directional    285   17386.0  0.0730   0.05
+0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1       sports directional     19  421000.0  2.2611   1.00
+0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1        other directional      8   79303.0  2.7096   1.00
+0xd1ed12197b7dc22dede923727e9b714024dbd7cb       sports directional   4482  472945.0  0.1860   0.95
+0xd1ed12197b7dc22dede923727e9b714024dbd7cb      weather        flat     21      22.0  0.1208   0.00
+0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029       sports directional   1012  537229.0  0.2736   0.25
+0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029       sports        flat      1     -14.0 -0.1347   0.48
+0xd3b034d7bfb2473fb252d0414646d9786bac329e       sports directional    923  586896.0  0.1583   0.50
+0xd3b034d7bfb2473fb252d0414646d9786bac329e       sports        flat      2    -178.0 -0.0235   0.32
+0xd9e0aaca471f489be338fd0f91a26e8669a805f2       sports directional   9273  559208.0  0.0168   0.10
+0xd9e0aaca471f489be338fd0f91a26e8669a805f2        other directional   1139   38051.0  0.0100   0.10
+0xdaef2be2a19ad331737d06545f85615b094554e9       sports directional    380  260655.0  0.1318   0.37
+0xdaef2be2a19ad331737d06545f85615b094554e9      finance directional      4   13403.0  0.1770   0.43
+0xde9f7f4e77a1595623ceb58e469f776257ccd43c       sports directional   3031  288300.0  0.1509   0.90
+0xde9f7f4e77a1595623ceb58e469f776257ccd43c       crypto directional      8    1829.0  0.2116   0.98
+0xe72bb501df5306c75c89383d48a1e81073fbb0a0        other directional     84  152726.0  0.0758   0.20
+0xe72bb501df5306c75c89383d48a1e81073fbb0a0       sports directional    107  142366.0  0.0538   0.19
+0xeebde7a0e019a63e6b476eb425505b7b3e6eba30 crypto_short directional 103502  796656.0  0.0159   0.45
+0xeebde7a0e019a63e6b476eb425505b7b3e6eba30       crypto directional  15296   35996.0  0.0150   0.42
+0xf68a281980f8c13828e84e147e3822381d6e5b1b       sports directional   1475  547429.0  0.0810   0.30
+0xf68a281980f8c13828e84e147e3822381d6e5b1b        other directional    315   14029.0  0.0132   0.26
+0xf705fa045201391d9632b7f3cde06a5e24453ca7       crypto directional    386  560274.0  0.3375   1.00
+0xf705fa045201391d9632b7f3cde06a5e24453ca7 crypto_short directional      4   18779.0 32.8637   1.00
+0xfc0847fe2ea938d6e2624650eb29ef8d8142a137       sports directional    254  239969.0  0.4158   0.92
+0xfc0847fe2ea938d6e2624650eb29ef8d8142a137        other directional     11  135857.0  4.7681   0.98
