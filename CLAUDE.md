@@ -38,6 +38,9 @@ Polymarket günlük sıcaklık piyasalarında ("Highest temperature in <city> on
 - A9/A10 hava gün içi (`a9_weather_intraday.py`, `a10_evening_lock.py`): yerel 18:00'de >=0,98 aralıklar %99,89 kazanır (9.088'de 10 kayıp), ama gerçekçi giriş ~0,996 -> işlem başı +%0,2–0,4 ("akşam kilidi", ince, büyük olasılıkla botlarca sömürülüyor). "Giriş <=0,995" filtresi +%1,1 gösteriyordu; bu fiyat seçimi etkisiydi.
 - A11 METAR (`a11_metar_fetch.py`: Iowa Mesonet, ücretsiz, erişilebilir; `a11_obs_lag.py`): istasyon eşlemesi veriden çıkarılır, 37 şehirde >=%85 eşleşme (`results/a11_stations.json`). Gözlenen maksimuma göre "ölü" aralıklarda NO avantaj yok, piyasa daha iyi bilgili. Kilitlenme modeli YES H2 +%10 (t≈1,9), NO -%25 -> sağlam değil.
 - HAVA SONUCU: tahmin, gözlem ve zaman bilgisine karşı piyasa verimli; maliyet sonrası sağlam avantaj yok (akşam kilidi hariç, ince).
+- A7 tüm piyasa PIT taraması (%5 örnek, 58 M dolum, 122 bin piyasa; 178 bin anlık görüntü): kategori x vade (5 dk–7 gün) x fiyat bandı x taraf hücrelerinin H1/H2 ROI korelasyonu -0,15; iki yarıda da pozitif hücre sayısı (17/140) şansla beklenene (~17) eşit, en iyi t_H2 1,7. Kategori toplamlarında taker gerçek girişte neredeyse her yerde negatif -> kalibrasyon/"bond" avantajı YOK.
+- A12 büyük fiyat hareketi (saatlik >=8 sent, `a12_moves.py`): devam/geri dönüş, hiçbir kategoride t > 1,1 değil -> gürültü.
+- DuckDB'yi `memory_limit='4GB'`, 3 iş parçacığı, `temp_directory` ile çalıştır; paralel ağır işler bellek baskısıyla öldürülüyor.
 
 ## Araştırma organizasyonu (tüm Polymarket)
 Tek hedef: maliyetler sonrası örnek dışında para kazandıran strateji. Bulut agent'ları ayrı dallarda çalışır, `results/<iş>/summary.md` üretir:

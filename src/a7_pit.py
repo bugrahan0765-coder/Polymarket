@@ -14,7 +14,7 @@ DELAY, MAX_WAIT = 30, 900
 
 meta = load_meta(HF)
 meta = meta[pd.to_numeric(meta['market_id'], errors='coerce') % 20 == 0][['market_id', 'cat', 'win1', 'end_ts', 'neg_risk', 'volume']]
-c = duckdb.connect()
+c = duckdb.connect(); c.execute("SET memory_limit='4GB'"); c.execute('SET threads=3'); c.execute("SET temp_directory='../hf_data/duck_tmp'")
 c.register('meta_df', meta)
 c.execute(f"create table f as select market_id, timestamp ts, p1, buy1, usd_amount usd from read_parquet('{HF}/ext/sample_trades/*.parquet', union_by_name=true) order by market_id, ts")
 c.execute("create table span as select market_id, min(ts) t0, max(ts) t1 from f group by market_id")

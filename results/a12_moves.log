@@ -1,0 +1,29 @@
+C:\Users\pc\Desktop\polymarket\Polymarket\src\a12_moves.py:60: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  print(res.groupby(['strat', 'cat', 'period']).apply(lambda t: pd.Series(dict(n=t.n.sum(), roi=(t.roi * t.n).sum() / t.n.sum()))).round(4).unstack('period').to_string())
+11,373 move events on 7,434 markets
+
+=== overall by strategy x category x period ===
+                       n            roi        
+period                H1     H2      H1      H2
+strat cat                                      
+cont  crypto       602.0  272.0  0.0798  0.0419
+      finance       40.0   14.0 -0.0010 -0.2067
+      geopolitics   80.0   18.0 -0.0889  0.1476
+      other        298.0  146.0 -0.1059  0.1246
+      politics      81.0   35.0 -0.1772  0.1606
+      sports       838.0  934.0 -0.0354 -0.0050
+      weather      307.0  427.0 -0.1382 -0.0218
+rev   crypto       588.0  232.0 -0.0928 -0.1278
+      finance       35.0   21.0  0.2399  0.6040
+      geopolitics   86.0   13.0 -0.1408 -0.2622
+      other        296.0  147.0 -0.2000 -0.3380
+      politics      84.0   26.0  0.2496  0.0059
+      sports       820.0  929.0 -0.1221  0.0396
+      weather      304.0  458.0  0.1014  0.0448
+
+=== cells positive in both halves (n>=40 each) ===
+                                  n_H1   n_H2   px_H1   px_H2  roi_H1  roi_H2   se_H1   se_H2    t_H2
+strat cat    left  size                                                                              
+rev   sports 2-14d [0.3, 1.01)    68.0  156.0  0.2423  0.2484  0.4614  0.3520  0.7489  0.2764  1.2736
+cont  crypto <6h   [0.08, 0.15)  100.0   53.0  0.6028  0.6344  0.7971  0.2100  0.9034  0.1703  1.2330
+                   [0.15, 0.3)   117.0   75.0  0.7084  0.7157  0.1045  0.0059  0.0718  0.0787  0.0746
