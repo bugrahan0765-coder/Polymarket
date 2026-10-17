@@ -1,0 +1,3809 @@
+{
+ "blend_coefs_by_month": {
+  "2026-02": [
+   0.477,
+   0.779
+  ],
+  "2026-03": [
+   0.377,
+   0.899
+  ],
+  "2026-04": [
+   0.362,
+   0.875
+  ],
+  "2026-05": [
+   0.301,
+   0.951
+  ],
+  "2026-06": [
+   0.23,
+   0.988
+  ],
+  "2026-07": [
+   0.172,
+   1.052
+  ],
+  "2026-08": [
+   0.152,
+   1.058
+  ],
+  "2026-09": [
+   0.148,
+   1.059
+  ],
+  "2026-10": [
+   0.109,
+   1.108
+  ]
+ },
+ "scores": {
+  "pre_split": {
+   "P_model": {
+    "logloss": 1.5131,
+    "brier": 0.6994
+   },
+   "P_mkt": {
+    "logloss": 1.4149,
+    "brier": 0.6728
+   },
+   "P_blend": {
+    "logloss": 1.3982,
+    "brier": 0.6686
+   },
+   "n_events": 1670
+  },
+  "oos": {
+   "P_model": {
+    "logloss": 1.6124,
+    "brier": 0.7444
+   },
+   "P_mkt": {
+    "logloss": 1.4358,
+    "brier": 0.6907
+   },
+   "P_blend": {
+    "logloss": 1.4285,
+    "brier": 0.69
+   },
+   "n_events": 7965
+  },
+  "oos_C": {
+   "P_model": {
+    "logloss": 1.6102,
+    "brier": 0.7457
+   },
+   "P_mkt": {
+    "logloss": 1.4595,
+    "brier": 0.7006
+   },
+   "P_blend": {
+    "logloss": 1.4505,
+    "brier": 0.6994
+   },
+   "n_events": 6183
+  },
+  "oos_F": {
+   "P_model": {
+    "logloss": 1.6199,
+    "brier": 0.7401
+   },
+   "P_mkt": {
+    "logloss": 1.3537,
+    "brier": 0.6564
+   },
+   "P_blend": {
+    "logloss": 1.3523,
+    "brier": 0.6574
+   },
+   "n_events": 1782
+  },
+  "month_2026-02": {
+   "P_model": {
+    "logloss": 1.4809,
+    "brier": 0.6942
+   },
+   "P_mkt": {
+    "logloss": 1.3545,
+    "brier": 0.65
+   },
+   "P_blend": {
+    "logloss": 1.3529,
+    "brier": 0.6497
+   },
+   "n_events": 266
+  },
+  "month_2026-03": {
+   "P_model": {
+    "logloss": 1.5485,
+    "brier": 0.7092
+   },
+   "P_mkt": {
+    "logloss": 1.5013,
+    "brier": 0.7016
+   },
+   "P_blend": {
+    "logloss": 1.4712,
+    "brier": 0.6909
+   },
+   "n_events": 409
+  },
+  "month_2026-04": {
+   "P_model": {
+    "logloss": 1.5071,
+    "brier": 0.6968
+   },
+   "P_mkt": {
+    "logloss": 1.3955,
+    "brier": 0.667
+   },
+   "P_blend": {
+    "logloss": 1.3803,
+    "brier": 0.6645
+   },
+   "n_events": 995
+  },
+  "month_2026-05": {
+   "P_model": {
+    "logloss": 1.5685,
+    "brier": 0.7096
+   },
+   "P_mkt": {
+    "logloss": 1.4244,
+    "brier": 0.6665
+   },
+   "P_blend": {
+    "logloss": 1.4254,
+    "brier": 0.6672
+   },
+   "n_events": 1424
+  },
+  "month_2026-06": {
+   "P_model": {
+    "logloss": 1.7006,
+    "brier": 0.7666
+   },
+   "P_mkt": {
+    "logloss": 1.4657,
+    "brier": 0.7034
+   },
+   "P_blend": {
+    "logloss": 1.4628,
+    "brier": 0.7034
+   },
+   "n_events": 1349
+  },
+  "month_2026-07": {
+   "P_model": {
+    "logloss": 1.6587,
+    "brier": 0.7624
+   },
+   "P_mkt": {
+    "logloss": 1.4925,
+    "brier": 0.7165
+   },
+   "P_blend": {
+    "logloss": 1.4883,
+    "brier": 0.7162
+   },
+   "n_events": 1494
+  },
+  "month_2026-08": {
+   "P_model": {
+    "logloss": 1.5593,
+    "brier": 0.7349
+   },
+   "P_mkt": {
+    "logloss": 1.4466,
+    "brier": 0.6963
+   },
+   "P_blend": {
+    "logloss": 1.4341,
+    "brier": 0.6939
+   },
+   "n_events": 1478
+  },
+  "month_2026-09": {
+   "P_model": {
+    "logloss": 1.598,
+    "brier": 0.7474
+   },
+   "P_mkt": {
+    "logloss": 1.3801,
+    "brier": 0.6747
+   },
+   "P_blend": {
+    "logloss": 1.3651,
+    "brier": 0.6728
+   },
+   "n_events": 1451
+  },
+  "month_2026-10": {
+   "P_model": {
+    "logloss": 1.5783,
+    "brier": 0.7479
+   },
+   "P_mkt": {
+    "logloss": 1.379,
+    "brier": 0.6831
+   },
+   "P_blend": {
+    "logloss": 1.3667,
+    "brier": 0.683
+   },
+   "n_events": 769
+  }
+ },
+ "trading_oos": {
+  "P_model|slip1c|YES+NO": {
+   "n": 4931,
+   "win_rate": 0.5338,
+   "staked": 25212.53,
+   "pnl": -1228.91,
+   "roi": -0.0487,
+   "roi_ci95": [
+    -0.0876,
+    -0.0085
+   ],
+   "p_roi_le0": 0.9865,
+   "worst_month": "2026-06 -637.89",
+   "months_pos": "0/6",
+   "max_dd": 1285.93,
+   "capital_needed": 486.12,
+   "roi_on_capital": -2.528,
+   "t_chosen": {
+    "2026-05": 0.06,
+    "2026-06": 0.04,
+    "2026-07": 0.04,
+    "2026-08": 0.04,
+    "2026-09": 0.26,
+    "2026-10": 0.3
+   },
+   "by_unit": {
+    "C": {
+     "n": 3784,
+     "win_rate": 0.5613,
+     "staked": 19330.85,
+     "pnl": -12.72,
+     "roi": -0.0007,
+     "roi_ci95": [
+      -0.0445,
+      0.045
+     ],
+     "p_roi_le0": 0.54,
+     "worst_month": "2026-06 -244.40",
+     "months_pos": "3/6",
+     "max_dd": 370.07,
+     "capital_needed": 378.51,
+     "roi_on_capital": -0.0336
+    },
+    "F": {
+     "n": 1147,
+     "win_rate": 0.4429,
+     "staked": 5881.67,
+     "pnl": -1216.19,
+     "roi": -0.2068,
+     "roi_ci95": [
+      -0.2923,
+      -0.1174
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-06 -393.49",
+     "months_pos": "0/6",
+     "max_dd": 1228.71,
+     "capital_needed": 113.82,
+     "roi_on_capital": -10.6853
+    }
+   },
+   "by_side": {
+    "NO": {
+     "n": 3833,
+     "win_rate": 0.629,
+     "staked": 19500.96,
+     "pnl": -1320.56,
+     "roi": -0.0677,
+     "roi_ci95": [
+      -0.0954,
+      -0.0418
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-06 -413.65",
+     "months_pos": "2/6",
+     "max_dd": 1378.28,
+     "capital_needed": 412.12,
+     "roi_on_capital": -3.2043
+    },
+    "YES": {
+     "n": 1098,
+     "win_rate": 0.2013,
+     "staked": 5711.57,
+     "pnl": 91.65,
+     "roi": 0.016,
+     "roi_ci95": [
+      -0.1472,
+      0.1862
+     ],
+     "p_roi_le0": 0.422,
+     "worst_month": "2026-06 -224.23",
+     "months_pos": "3/6",
+     "max_dd": 414.65,
+     "capital_needed": 161.16,
+     "roi_on_capital": 0.5687
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 1398,
+     "win_rate": 0.5207,
+     "staked": 7152.81,
+     "pnl": -203.8,
+     "roi": -0.0285,
+     "roi_ci95": [
+      -0.1029,
+      0.0407
+     ],
+     "p_roi_le0": 0.766,
+     "worst_month": "2026-09 -101.01",
+     "months_pos": "0/3",
+     "max_dd": 478.47,
+     "capital_needed": 460.8,
+     "roi_on_capital": -0.4423
+    },
+    "May-Jul": {
+     "n": 3533,
+     "win_rate": 0.5389,
+     "staked": 18059.71,
+     "pnl": -1025.11,
+     "roi": -0.0568,
+     "roi_ci95": [
+      -0.1008,
+      -0.0098
+     ],
+     "p_roi_le0": 0.99,
+     "worst_month": "2026-06 -637.89",
+     "months_pos": "0/3",
+     "max_dd": 1100.86,
+     "capital_needed": 486.12,
+     "roi_on_capital": -2.1088
+    }
+   }
+  },
+  "P_model|slip1c|YES": {
+   "n": 1298,
+   "win_rate": 0.1549,
+   "staked": 6763.4,
+   "pnl": -1551.6,
+   "roi": -0.2294,
+   "roi_ci95": [
+    -0.3664,
+    -0.0677
+   ],
+   "p_roi_le0": 0.997,
+   "worst_month": "2026-05 -808.72",
+   "months_pos": "1/6",
+   "max_dd": 1551.6,
+   "capital_needed": 359.32,
+   "roi_on_capital": -4.3181,
+   "t_chosen": {
+    "2026-05": 0.04,
+    "2026-06": 0.16,
+    "2026-07": 0.16,
+    "2026-08": 0.22,
+    "2026-09": 0.22,
+    "2026-10": 0.22
+   },
+   "by_unit": {
+    "C": {
+     "n": 917,
+     "win_rate": 0.1821,
+     "staked": 4773.87,
+     "pnl": -414.48,
+     "roi": -0.0868,
+     "roi_ci95": [
+      -0.2626,
+      0.1365
+     ],
+     "p_roi_le0": 0.8,
+     "worst_month": "2026-05 -365.92",
+     "months_pos": "2/6",
+     "max_dd": 491.24,
+     "capital_needed": 286.08,
+     "roi_on_capital": -1.4488
+    },
+    "F": {
+     "n": 381,
+     "win_rate": 0.0892,
+     "staked": 1989.52,
+     "pnl": -1137.12,
+     "roi": -0.5716,
+     "roi_ci95": [
+      -0.7165,
+      -0.4152
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-05 -442.80",
+     "months_pos": "0/6",
+     "max_dd": 1137.12,
+     "capital_needed": 99.16,
+     "roi_on_capital": -11.4671
+    }
+   },
+   "by_side": {
+    "YES": {
+     "n": 1298,
+     "win_rate": 0.1549,
+     "staked": 6763.4,
+     "pnl": -1551.6,
+     "roi": -0.2294,
+     "roi_ci95": [
+      -0.3687,
+      -0.0793
+     ],
+     "p_roi_le0": 0.998,
+     "worst_month": "2026-05 -808.72",
+     "months_pos": "1/6",
+     "max_dd": 1551.6,
+     "capital_needed": 359.32,
+     "roi_on_capital": -4.3181
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 191,
+     "win_rate": 0.1309,
+     "staked": 996.41,
+     "pnl": -260.17,
+     "roi": -0.2611,
+     "roi_ci95": [
+      -0.5217,
+      0.0657
+     ],
+     "p_roi_le0": 0.944,
+     "worst_month": "2026-09 -188.37",
+     "months_pos": "1/3",
+     "max_dd": 307.17,
+     "capital_needed": 78.33,
+     "roi_on_capital": -3.3216
+    },
+    "May-Jul": {
+     "n": 1107,
+     "win_rate": 0.159,
+     "staked": 5766.99,
+     "pnl": -1291.43,
+     "roi": -0.2239,
+     "roi_ci95": [
+      -0.3819,
+      -0.0459
+     ],
+     "p_roi_le0": 0.99,
+     "worst_month": "2026-05 -808.72",
+     "months_pos": "0/3",
+     "max_dd": 1336.62,
+     "capital_needed": 359.32,
+     "roi_on_capital": -3.5941
+    }
+   }
+  },
+  "P_model|slip1c|NO": {
+   "n": 1667,
+   "win_rate": 0.5819,
+   "staked": 8495.73,
+   "pnl": -773.37,
+   "roi": -0.091,
+   "roi_ci95": [
+    -0.144,
+    -0.0334
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-06 -452.27",
+   "months_pos": "2/6",
+   "max_dd": 799.5,
+   "capital_needed": 280.16,
+   "roi_on_capital": -2.7605,
+   "t_chosen": {
+    "2026-05": 0.1,
+    "2026-06": 0.1,
+    "2026-07": 0.18,
+    "2026-08": 0.24,
+    "2026-09": 0.24,
+    "2026-10": 0.24
+   },
+   "by_unit": {
+    "C": {
+     "n": 1127,
+     "win_rate": 0.6096,
+     "staked": 5738.93,
+     "pnl": -305.05,
+     "roi": -0.0532,
+     "roi_ci95": [
+      -0.1063,
+      0.0063
+     ],
+     "p_roi_le0": 0.964,
+     "worst_month": "2026-06 -254.63",
+     "months_pos": "1/6",
+     "max_dd": 367.28,
+     "capital_needed": 193.37,
+     "roi_on_capital": -1.5775
+    },
+    "F": {
+     "n": 540,
+     "win_rate": 0.5241,
+     "staked": 2756.81,
+     "pnl": -468.32,
+     "roi": -0.1699,
+     "roi_ci95": [
+      -0.2504,
+      -0.0846
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-06 -197.63",
+     "months_pos": "1/6",
+     "max_dd": 482.2,
+     "capital_needed": 91.73,
+     "roi_on_capital": -5.1057
+    }
+   },
+   "by_side": {
+    "NO": {
+     "n": 1667,
+     "win_rate": 0.5819,
+     "staked": 8495.73,
+     "pnl": -773.37,
+     "roi": -0.091,
+     "roi_ci95": [
+      -0.1446,
+      -0.0335
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-06 -452.27",
+     "months_pos": "2/6",
+     "max_dd": 799.5,
+     "capital_needed": 280.16,
+     "roi_on_capital": -2.7605
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 259,
+     "win_rate": 0.5328,
+     "staked": 1325.83,
+     "pnl": 4.15,
+     "roi": 0.0031,
+     "roi_ci95": [
+      -0.1128,
+      0.1485
+     ],
+     "p_roi_le0": 0.44,
+     "worst_month": "2026-10 -36.03",
+     "months_pos": "2/3",
+     "max_dd": 81.16,
+     "capital_needed": 117.65,
+     "roi_on_capital": 0.0353
+    },
+    "May-Jul": {
+     "n": 1408,
+     "win_rate": 0.5909,
+     "staked": 7169.91,
+     "pnl": -777.53,
+     "roi": -0.1084,
+     "roi_ci95": [
+      -0.1656,
+      -0.0537
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-06 -452.27",
+     "months_pos": "0/3",
+     "max_dd": 799.5,
+     "capital_needed": 280.16,
+     "roi_on_capital": -2.7753
+    }
+   }
+  },
+  "P_model|slip2c|YES+NO": {
+   "n": 2066,
+   "win_rate": 0.4952,
+   "staked": 10576.07,
+   "pnl": -1464.39,
+   "roi": -0.1385,
+   "roi_ci95": [
+    -0.1984,
+    -0.0783
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-06 -875.94",
+   "months_pos": "1/6",
+   "max_dd": 1507.67,
+   "capital_needed": 454.53,
+   "roi_on_capital": -3.2218,
+   "t_chosen": {
+    "2026-05": 0.08,
+    "2026-06": 0.04,
+    "2026-07": 0.28,
+    "2026-08": 0.28,
+    "2026-09": 0.24,
+    "2026-10": 0.28
+   },
+   "by_unit": {
+    "C": {
+     "n": 1520,
+     "win_rate": 0.5375,
+     "staked": 7769.44,
+     "pnl": -522.79,
+     "roi": -0.0673,
+     "roi_ci95": [
+      -0.1331,
+      0.0203
+     ],
+     "p_roi_le0": 0.938,
+     "worst_month": "2026-06 -369.67",
+     "months_pos": "2/6",
+     "max_dd": 599.31,
+     "capital_needed": 346.78,
+     "roi_on_capital": -1.5076
+    },
+    "F": {
+     "n": 546,
+     "win_rate": 0.3773,
+     "staked": 2806.63,
+     "pnl": -941.6,
+     "roi": -0.3355,
+     "roi_ci95": [
+      -0.4366,
+      -0.2192
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-06 -506.27",
+     "months_pos": "0/6",
+     "max_dd": 953.4,
+     "capital_needed": 113.61,
+     "roi_on_capital": -8.2883
+    }
+   },
+   "by_side": {
+    "NO": {
+     "n": 1548,
+     "win_rate": 0.6059,
+     "staked": 7881.22,
+     "pnl": -731.32,
+     "roi": -0.0928,
+     "roi_ci95": [
+      -0.1399,
+      -0.0393
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-06 -455.90",
+     "months_pos": "2/6",
+     "max_dd": 779.28,
+     "capital_needed": 381.5,
+     "roi_on_capital": -1.9169
+    },
+    "YES": {
+     "n": 518,
+     "win_rate": 0.1641,
+     "staked": 2694.85,
+     "pnl": -733.07,
+     "roi": -0.272,
+     "roi_ci95": [
+      -0.4515,
+      -0.0843
+     ],
+     "p_roi_le0": 0.996,
+     "worst_month": "2026-06 -420.04",
+     "months_pos": "1/6",
+     "max_dd": 823.27,
+     "capital_needed": 140.81,
+     "roi_on_capital": -5.2062
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 197,
+     "win_rate": 0.3858,
+     "staked": 1013.84,
+     "pnl": -179.83,
+     "roi": -0.1774,
+     "roi_ci95": [
+      -0.3776,
+      0.0377
+     ],
+     "p_roi_le0": 0.95,
+     "worst_month": "2026-09 -133.67",
+     "months_pos": "0/3",
+     "max_dd": 231.51,
+     "capital_needed": 82.14,
+     "roi_on_capital": -2.1892
+    },
+    "May-Jul": {
+     "n": 1869,
+     "win_rate": 0.5067,
+     "staked": 9562.23,
+     "pnl": -1284.56,
+     "roi": -0.1343,
+     "roi_ci95": [
+      -0.1981,
+      -0.0716
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-06 -875.94",
+     "months_pos": "1/3",
+     "max_dd": 1354.53,
+     "capital_needed": 454.53,
+     "roi_on_capital": -2.8261
+    }
+   }
+  },
+  "P_model|slip2c|YES": {
+   "n": 731,
+   "win_rate": 0.1477,
+   "staked": 3807.48,
+   "pnl": -1298.39,
+   "roi": -0.341,
+   "roi_ci95": [
+    -0.4754,
+    -0.1948
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-05 -525.13",
+   "months_pos": "1/6",
+   "max_dd": 1315.08,
+   "capital_needed": 192.76,
+   "roi_on_capital": -6.7359,
+   "t_chosen": {
+    "2026-05": 0.08,
+    "2026-06": 0.14,
+    "2026-07": 0.22,
+    "2026-08": 0.22,
+    "2026-09": 0.22,
+    "2026-10": 0.24
+   },
+   "by_unit": {
+    "C": {
+     "n": 463,
+     "win_rate": 0.1987,
+     "staked": 2408.32,
+     "pnl": -243.03,
+     "roi": -0.1009,
+     "roi_ci95": [
+      -0.3027,
+      0.1091
+     ],
+     "p_roi_le0": 0.824,
+     "worst_month": "2026-05 -204.81",
+     "months_pos": "2/6",
+     "max_dd": 304.73,
+     "capital_needed": 145.58,
+     "roi_on_capital": -1.6694
+    },
+    "F": {
+     "n": 268,
+     "win_rate": 0.0597,
+     "staked": 1399.15,
+     "pnl": -1055.36,
+     "roi": -0.7543,
+     "roi_ci95": [
+      -0.8583,
+      -0.6272
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-06 -403.09",
+     "months_pos": "0/6",
+     "max_dd": 1055.36,
+     "capital_needed": 67.77,
+     "roi_on_capital": -15.5728
+    }
+   },
+   "by_side": {
+    "YES": {
+     "n": 731,
+     "win_rate": 0.1477,
+     "staked": 3807.48,
+     "pnl": -1298.39,
+     "roi": -0.341,
+     "roi_ci95": [
+      -0.4756,
+      -0.1775
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-05 -525.13",
+     "months_pos": "1/6",
+     "max_dd": 1315.08,
+     "capital_needed": 192.76,
+     "roi_on_capital": -6.7359
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 141,
+     "win_rate": 0.1135,
+     "staked": 735.32,
+     "pnl": -303.7,
+     "roi": -0.413,
+     "roi_ci95": [
+      -0.6801,
+      -0.0583
+     ],
+     "p_roi_le0": 0.994,
+     "worst_month": "2026-09 -224.87",
+     "months_pos": "1/3",
+     "max_dd": 353.21,
+     "capital_needed": 57.35,
+     "roi_on_capital": -5.2959
+    },
+    "May-Jul": {
+     "n": 590,
+     "win_rate": 0.1559,
+     "staked": 3072.16,
+     "pnl": -994.69,
+     "roi": -0.3238,
+     "roi_ci95": [
+      -0.4656,
+      -0.1568
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-05 -525.13",
+     "months_pos": "0/3",
+     "max_dd": 1062.26,
+     "capital_needed": 192.76,
+     "roi_on_capital": -5.1604
+    }
+   }
+  },
+  "P_model|slip2c|NO": {
+   "n": 1593,
+   "win_rate": 0.5951,
+   "staked": 8111.87,
+   "pnl": -795.32,
+   "roi": -0.098,
+   "roi_ci95": [
+    -0.1447,
+    -0.0452
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-06 -385.91",
+   "months_pos": "1/6",
+   "max_dd": 825.94,
+   "capital_needed": 279.75,
+   "roi_on_capital": -2.8429,
+   "t_chosen": {
+    "2026-05": 0.08,
+    "2026-06": 0.1,
+    "2026-07": 0.16,
+    "2026-08": 0.28,
+    "2026-09": 0.26,
+    "2026-10": 0.28
+   },
+   "by_unit": {
+    "C": {
+     "n": 1085,
+     "win_rate": 0.6221,
+     "staked": 5519.95,
+     "pnl": -347.38,
+     "roi": -0.0629,
+     "roi_ci95": [
+      -0.109,
+      -0.009
+     ],
+     "p_roi_le0": 0.988,
+     "worst_month": "2026-06 -208.67",
+     "months_pos": "2/6",
+     "max_dd": 409.49,
+     "capital_needed": 223.52,
+     "roi_on_capital": -1.5541
+    },
+    "F": {
+     "n": 508,
+     "win_rate": 0.5374,
+     "staked": 2591.92,
+     "pnl": -447.94,
+     "roi": -0.1728,
+     "roi_ci95": [
+      -0.2521,
+      -0.0824
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-06 -177.24",
+     "months_pos": "0/6",
+     "max_dd": 459.74,
+     "capital_needed": 86.6,
+     "roi_on_capital": -5.1725
+    }
+   },
+   "by_side": {
+    "NO": {
+     "n": 1593,
+     "win_rate": 0.5951,
+     "staked": 8111.87,
+     "pnl": -795.32,
+     "roi": -0.098,
+     "roi_ci95": [
+      -0.1411,
+      -0.0463
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-06 -385.91",
+     "months_pos": "1/6",
+     "max_dd": 825.94,
+     "capital_needed": 279.75,
+     "roi_on_capital": -2.8429
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 142,
+     "win_rate": 0.5,
+     "staked": 727.5,
+     "pnl": -8.76,
+     "roi": -0.012,
+     "roi_ci95": [
+      -0.1809,
+      0.1783
+     ],
+     "p_roi_le0": 0.53,
+     "worst_month": "2026-10 -13.86",
+     "months_pos": "1/3",
+     "max_dd": 60.73,
+     "capital_needed": 61.48,
+     "roi_on_capital": -0.1425
+    },
+    "May-Jul": {
+     "n": 1451,
+     "win_rate": 0.6044,
+     "staked": 7384.38,
+     "pnl": -786.56,
+     "roi": -0.1065,
+     "roi_ci95": [
+      -0.1562,
+      -0.0556
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-06 -385.91",
+     "months_pos": "0/3",
+     "max_dd": 801.78,
+     "capital_needed": 279.75,
+     "roi_on_capital": -2.8116
+    }
+   }
+  },
+  "P_model|slip3c|YES+NO": {
+   "n": 1319,
+   "win_rate": 0.4981,
+   "staked": 6752.88,
+   "pnl": -1032.39,
+   "roi": -0.1529,
+   "roi_ci95": [
+    -0.2124,
+    -0.0947
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-05 -587.34",
+   "months_pos": "1/6",
+   "max_dd": 1066.57,
+   "capital_needed": 398.26,
+   "roi_on_capital": -2.5922,
+   "t_chosen": {
+    "2026-05": 0.04,
+    "2026-06": 0.18,
+    "2026-07": 0.28,
+    "2026-08": 0.28,
+    "2026-09": 0.28,
+    "2026-10": 0.28
+   },
+   "by_unit": {
+    "C": {
+     "n": 945,
+     "win_rate": 0.5503,
+     "staked": 4829.43,
+     "pnl": -280.95,
+     "roi": -0.0582,
+     "roi_ci95": [
+      -0.1197,
+      0.0166
+     ],
+     "p_roi_le0": 0.928,
+     "worst_month": "2026-05 -241.66",
+     "months_pos": "1/6",
+     "max_dd": 326.54,
+     "capital_needed": 316.44,
+     "roi_on_capital": -0.8879
+    },
+    "F": {
+     "n": 374,
+     "win_rate": 0.3663,
+     "staked": 1923.45,
+     "pnl": -751.44,
+     "roi": -0.3907,
+     "roi_ci95": [
+      -0.4931,
+      -0.291
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-05 -345.68",
+     "months_pos": "0/6",
+     "max_dd": 762.55,
+     "capital_needed": 92.75,
+     "roi_on_capital": -8.1016
+    }
+   },
+   "by_side": {
+    "NO": {
+     "n": 956,
+     "win_rate": 0.6067,
+     "staked": 4868.88,
+     "pnl": -500.62,
+     "roi": -0.1028,
+     "roi_ci95": [
+      -0.1619,
+      -0.0398
+     ],
+     "p_roi_le0": 0.996,
+     "worst_month": "2026-05 -405.19",
+     "months_pos": "3/6",
+     "max_dd": 556.72,
+     "capital_needed": 304.9,
+     "roi_on_capital": -1.6419
+    },
+    "YES": {
+     "n": 363,
+     "win_rate": 0.2121,
+     "staked": 1884.0,
+     "pnl": -531.77,
+     "roi": -0.2823,
+     "roi_ci95": [
+      -0.4408,
+      -0.1159
+     ],
+     "p_roi_le0": 0.998,
+     "worst_month": "2026-06 -226.17",
+     "months_pos": "1/6",
+     "max_dd": 563.26,
+     "capital_needed": 134.8,
+     "roi_on_capital": -3.9448
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 127,
+     "win_rate": 0.3858,
+     "staked": 653.99,
+     "pnl": -116.68,
+     "roi": -0.1784,
+     "roi_ci95": [
+      -0.3813,
+      0.0584
+     ],
+     "p_roi_le0": 0.938,
+     "worst_month": "2026-10 -45.97",
+     "months_pos": "0/3",
+     "max_dd": 157.02,
+     "capital_needed": 61.61,
+     "roi_on_capital": -1.894
+    },
+    "May-Jul": {
+     "n": 1192,
+     "win_rate": 0.5101,
+     "staked": 6098.89,
+     "pnl": -915.71,
+     "roi": -0.1501,
+     "roi_ci95": [
+      -0.2097,
+      -0.0885
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-05 -587.34",
+     "months_pos": "1/3",
+     "max_dd": 971.23,
+     "capital_needed": 398.26,
+     "roi_on_capital": -2.2993
+    }
+   }
+  },
+  "P_model|slip3c|YES": {
+   "n": 319,
+   "win_rate": 0.1348,
+   "staked": 1661.93,
+   "pnl": -602.04,
+   "roi": -0.3623,
+   "roi_ci95": [
+    -0.6058,
+    -0.1105
+   ],
+   "p_roi_le0": 0.9975,
+   "worst_month": "2026-06 -338.24",
+   "months_pos": "1/6",
+   "max_dd": 677.24,
+   "capital_needed": 114.48,
+   "roi_on_capital": -5.2587,
+   "t_chosen": {
+    "2026-05": 0.14,
+    "2026-06": 0.14,
+    "2026-07": 0.28,
+    "2026-08": 0.28,
+    "2026-09": 0.28,
+    "2026-10": 0.28
+   },
+   "by_unit": {
+    "C": {
+     "n": 183,
+     "win_rate": 0.2186,
+     "staked": 951.75,
+     "pnl": 55.7,
+     "roi": 0.0585,
+     "roi_ci95": [
+      -0.3232,
+      0.4314
+     ],
+     "p_roi_le0": 0.398,
+     "worst_month": "2026-09 -46.91",
+     "months_pos": "2/6",
+     "max_dd": 132.82,
+     "capital_needed": 72.84,
+     "roi_on_capital": 0.7646
+    },
+    "F": {
+     "n": 136,
+     "win_rate": 0.0221,
+     "staked": 710.19,
+     "pnl": -657.74,
+     "roi": -0.9261,
+     "roi_ci95": [
+      -1.0,
+      -0.8476
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-06 -329.67",
+     "months_pos": "0/6",
+     "max_dd": 657.74,
+     "capital_needed": 41.64,
+     "roi_on_capital": -15.7951
+    }
+   },
+   "by_side": {
+    "YES": {
+     "n": 319,
+     "win_rate": 0.1348,
+     "staked": 1661.93,
+     "pnl": -602.04,
+     "roi": -0.3623,
+     "roi_ci95": [
+      -0.5977,
+      -0.0923
+     ],
+     "p_roi_le0": 0.996,
+     "worst_month": "2026-06 -338.24",
+     "months_pos": "1/6",
+     "max_dd": 677.24,
+     "capital_needed": 114.48,
+     "roi_on_capital": -5.2587
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 53,
+     "win_rate": 0.0377,
+     "staked": 276.54,
+     "pnl": -226.74,
+     "roi": -0.8199,
+     "roi_ci95": [
+      -1.0,
+      -0.5451
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-09 -125.31",
+     "months_pos": "0/3",
+     "max_dd": 238.12,
+     "capital_needed": 31.32,
+     "roi_on_capital": -7.2396
+    },
+    "May-Jul": {
+     "n": 266,
+     "win_rate": 0.1541,
+     "staked": 1385.39,
+     "pnl": -375.3,
+     "roi": -0.2709,
+     "roi_ci95": [
+      -0.5008,
+      0.0055
+     ],
+     "p_roi_le0": 0.97,
+     "worst_month": "2026-06 -338.24",
+     "months_pos": "1/3",
+     "max_dd": 484.99,
+     "capital_needed": 114.48,
+     "roi_on_capital": -3.2782
+    }
+   }
+  },
+  "P_model|slip3c|NO": {
+   "n": 1344,
+   "win_rate": 0.593,
+   "staked": 6840.15,
+   "pnl": -837.79,
+   "roi": -0.1225,
+   "roi_ci95": [
+    -0.1743,
+    -0.0693
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-06 -534.65",
+   "months_pos": "2/6",
+   "max_dd": 866.39,
+   "capital_needed": 279.88,
+   "roi_on_capital": -2.9934,
+   "t_chosen": {
+    "2026-05": 0.08,
+    "2026-06": 0.08,
+    "2026-07": 0.3,
+    "2026-08": 0.3,
+    "2026-09": 0.24,
+    "2026-10": 0.3
+   },
+   "by_unit": {
+    "C": {
+     "n": 929,
+     "win_rate": 0.6222,
+     "staked": 4723.02,
+     "pnl": -412.95,
+     "roi": -0.0874,
+     "roi_ci95": [
+      -0.1379,
+      -0.0358
+     ],
+     "p_roi_le0": 0.998,
+     "worst_month": "2026-06 -317.57",
+     "months_pos": "2/6",
+     "max_dd": 463.34,
+     "capital_needed": 193.3,
+     "roi_on_capital": -2.1364
+    },
+    "F": {
+     "n": 415,
+     "win_rate": 0.5277,
+     "staked": 2117.13,
+     "pnl": -424.84,
+     "roi": -0.2007,
+     "roi_ci95": [
+      -0.2775,
+      -0.1035
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-06 -217.08",
+     "months_pos": "1/6",
+     "max_dd": 437.84,
+     "capital_needed": 91.64,
+     "roi_on_capital": -4.6362
+    }
+   },
+   "by_side": {
+    "NO": {
+     "n": 1344,
+     "win_rate": 0.593,
+     "staked": 6840.15,
+     "pnl": -837.79,
+     "roi": -0.1225,
+     "roi_ci95": [
+      -0.175,
+      -0.0684
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-06 -534.65",
+     "months_pos": "2/6",
+     "max_dd": 866.39,
+     "capital_needed": 279.88,
+     "roi_on_capital": -2.9934
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 122,
+     "win_rate": 0.4918,
+     "staked": 624.75,
+     "pnl": -26.12,
+     "roi": -0.0418,
+     "roi_ci95": [
+      -0.2054,
+      0.1483
+     ],
+     "p_roi_le0": 0.654,
+     "worst_month": "2026-09 -25.60",
+     "months_pos": "1/3",
+     "max_dd": 71.0,
+     "capital_needed": 71.69,
+     "roi_on_capital": -0.3643
+    },
+    "May-Jul": {
+     "n": 1222,
+     "win_rate": 0.6031,
+     "staked": 6215.41,
+     "pnl": -811.67,
+     "roi": -0.1306,
+     "roi_ci95": [
+      -0.1861,
+      -0.0692
+     ],
+     "p_roi_le0": 1.0,
+     "worst_month": "2026-06 -534.65",
+     "months_pos": "1/3",
+     "max_dd": 835.96,
+     "capital_needed": 279.88,
+     "roi_on_capital": -2.9001
+    }
+   }
+  },
+  "P_blend|slip1c|YES+NO": {
+   "n": 6944,
+   "win_rate": 0.6928,
+   "staked": 35271.53,
+   "pnl": -249.17,
+   "roi": -0.0071,
+   "roi_ci95": [
+    -0.0276,
+    0.0137
+   ],
+   "p_roi_le0": 0.7355,
+   "worst_month": "2026-09 -198.33",
+   "months_pos": "2/6",
+   "max_dd": 421.79,
+   "capital_needed": 498.99,
+   "roi_on_capital": -0.4994,
+   "t_chosen": {
+    "2026-05": 0.0,
+    "2026-06": 0.0,
+    "2026-07": 0.0,
+    "2026-08": 0.0,
+    "2026-09": 0.0,
+    "2026-10": 0.04
+   },
+   "by_unit": {
+    "C": {
+     "n": 5445,
+     "win_rate": 0.7036,
+     "staked": 27645.78,
+     "pnl": -36.51,
+     "roi": -0.0013,
+     "roi_ci95": [
+      -0.0264,
+      0.0198
+     ],
+     "p_roi_le0": 0.586,
+     "worst_month": "2026-09 -137.76",
+     "months_pos": "3/6",
+     "max_dd": 329.3,
+     "capital_needed": 391.83,
+     "roi_on_capital": -0.0932
+    },
+    "F": {
+     "n": 1499,
+     "win_rate": 0.6538,
+     "staked": 7625.75,
+     "pnl": -212.67,
+     "roi": -0.0279,
+     "roi_ci95": [
+      -0.0729,
+      0.0138
+     ],
+     "p_roi_le0": 0.906,
+     "worst_month": "2026-05 -145.82",
+     "months_pos": "2/6",
+     "max_dd": 307.99,
+     "capital_needed": 113.32,
+     "roi_on_capital": -1.8768
+    }
+   },
+   "by_side": {
+    "NO": {
+     "n": 4420,
+     "win_rate": 0.8627,
+     "staked": 22265.36,
+     "pnl": 104.79,
+     "roi": 0.0047,
+     "roi_ci95": [
+      -0.008,
+      0.0172
+     ],
+     "p_roi_le0": 0.22,
+     "worst_month": "2026-09 -131.07",
+     "months_pos": "5/6",
+     "max_dd": 185.23,
+     "capital_needed": 453.63,
+     "roi_on_capital": 0.231
+    },
+    "YES": {
+     "n": 2524,
+     "win_rate": 0.3954,
+     "staked": 13006.17,
+     "pnl": -353.96,
+     "roi": -0.0272,
+     "roi_ci95": [
+      -0.0767,
+      0.0221
+     ],
+     "p_roi_le0": 0.862,
+     "worst_month": "2026-07 -142.84",
+     "months_pos": "1/6",
+     "max_dd": 455.86,
+     "capital_needed": 340.87,
+     "roi_on_capital": -1.0384
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 2926,
+     "win_rate": 0.7392,
+     "staked": 14824.1,
+     "pnl": -203.6,
+     "roi": -0.0137,
+     "roi_ci95": [
+      -0.0423,
+      0.0129
+     ],
+     "p_roi_le0": 0.836,
+     "worst_month": "2026-09 -198.33",
+     "months_pos": "1/3",
+     "max_dd": 421.79,
+     "capital_needed": 498.99,
+     "roi_on_capital": -0.408
+    },
+    "May-Jul": {
+     "n": 4018,
+     "win_rate": 0.659,
+     "staked": 20447.44,
+     "pnl": -45.58,
+     "roi": -0.0022,
+     "roi_ci95": [
+      -0.0336,
+      0.0267
+     ],
+     "p_roi_le0": 0.598,
+     "worst_month": "2026-07 -90.05",
+     "months_pos": "1/3",
+     "max_dd": 324.15,
+     "capital_needed": 497.38,
+     "roi_on_capital": -0.0916
+    }
+   }
+  },
+  "P_blend|slip1c|YES": {
+   "n": 749,
+   "win_rate": 0.4085,
+   "staked": 3857.19,
+   "pnl": -131.3,
+   "roi": -0.034,
+   "roi_ci95": [
+    -0.1089,
+    0.0525
+   ],
+   "p_roi_le0": 0.7975,
+   "worst_month": "2026-05 -56.43",
+   "months_pos": "2/6",
+   "max_dd": 166.26,
+   "capital_needed": 231.56,
+   "roi_on_capital": -0.567,
+   "t_chosen": {
+    "2026-05": 0.02,
+    "2026-06": 0.04,
+    "2026-07": 0.04,
+    "2026-08": 0.04,
+    "2026-09": 0.04,
+    "2026-10": 0.04
+   },
+   "by_unit": {
+    "C": {
+     "n": 570,
+     "win_rate": 0.4158,
+     "staked": 2936.1,
+     "pnl": 5.56,
+     "roi": 0.0019,
+     "roi_ci95": [
+      -0.1008,
+      0.1074
+     ],
+     "p_roi_le0": 0.49,
+     "worst_month": "2026-06 -44.44",
+     "months_pos": "2/6",
+     "max_dd": 108.34,
+     "capital_needed": 206.02,
+     "roi_on_capital": 0.027
+    },
+    "F": {
+     "n": 179,
+     "win_rate": 0.3855,
+     "staked": 921.09,
+     "pnl": -136.86,
+     "roi": -0.1486,
+     "roi_ci95": [
+      -0.3336,
+      0.055
+     ],
+     "p_roi_le0": 0.91,
+     "worst_month": "2026-05 -116.29",
+     "months_pos": "2/6",
+     "max_dd": 169.2,
+     "capital_needed": 56.91,
+     "roi_on_capital": -2.4047
+    }
+   },
+   "by_side": {
+    "YES": {
+     "n": 749,
+     "win_rate": 0.4085,
+     "staked": 3857.19,
+     "pnl": -131.3,
+     "roi": -0.034,
+     "roi_ci95": [
+      -0.1129,
+      0.0521
+     ],
+     "p_roi_le0": 0.768,
+     "worst_month": "2026-05 -56.43",
+     "months_pos": "2/6",
+     "max_dd": 166.26,
+     "capital_needed": 231.56,
+     "roi_on_capital": -0.567
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 81,
+     "win_rate": 0.4568,
+     "staked": 415.85,
+     "pnl": -27.38,
+     "roi": -0.0659,
+     "roi_ci95": [
+      -0.3339,
+      0.2016
+     ],
+     "p_roi_le0": 0.708,
+     "worst_month": "2026-10 -29.78",
+     "months_pos": "1/3",
+     "max_dd": 60.74,
+     "capital_needed": 35.9,
+     "roi_on_capital": -0.7628
+    },
+    "May-Jul": {
+     "n": 668,
+     "win_rate": 0.4027,
+     "staked": 3441.34,
+     "pnl": -103.92,
+     "roi": -0.0302,
+     "roi_ci95": [
+      -0.109,
+      0.0537
+     ],
+     "p_roi_le0": 0.786,
+     "worst_month": "2026-05 -56.43",
+     "months_pos": "1/3",
+     "max_dd": 166.26,
+     "capital_needed": 231.56,
+     "roi_on_capital": -0.4488
+    }
+   }
+  },
+  "P_blend|slip1c|NO": {
+   "n": 7160,
+   "win_rate": 0.8732,
+   "staked": 36042.44,
+   "pnl": 76.1,
+   "roi": 0.0021,
+   "roi_ci95": [
+    -0.0066,
+    0.0109
+   ],
+   "p_roi_le0": 0.3365,
+   "worst_month": "2026-09 -127.68",
+   "months_pos": "5/6",
+   "max_dd": 215.02,
+   "capital_needed": 493.95,
+   "roi_on_capital": 0.1541,
+   "t_chosen": {
+    "2026-05": 0.0,
+    "2026-06": 0.0,
+    "2026-07": 0.0,
+    "2026-08": 0.0,
+    "2026-09": 0.0,
+    "2026-10": 0.0
+   },
+   "by_unit": {
+    "C": {
+     "n": 5655,
+     "win_rate": 0.8771,
+     "staked": 28463.9,
+     "pnl": 143.23,
+     "roi": 0.005,
+     "roi_ci95": [
+      -0.0047,
+      0.0143
+     ],
+     "p_roi_le0": 0.186,
+     "worst_month": "2026-09 -73.98",
+     "months_pos": "4/6",
+     "max_dd": 166.94,
+     "capital_needed": 383.16,
+     "roi_on_capital": 0.3738
+    },
+    "F": {
+     "n": 1505,
+     "win_rate": 0.8585,
+     "staked": 7578.53,
+     "pnl": -67.13,
+     "roi": -0.0089,
+     "roi_ci95": [
+      -0.0269,
+      0.0101
+     ],
+     "p_roi_le0": 0.782,
+     "worst_month": "2026-09 -53.69",
+     "months_pos": "2/6",
+     "max_dd": 114.99,
+     "capital_needed": 111.09,
+     "roi_on_capital": -0.6043
+    }
+   },
+   "by_side": {
+    "NO": {
+     "n": 7160,
+     "win_rate": 0.8732,
+     "staked": 36042.44,
+     "pnl": 76.1,
+     "roi": 0.0021,
+     "roi_ci95": [
+      -0.0062,
+      0.0112
+     ],
+     "p_roi_le0": 0.342,
+     "worst_month": "2026-09 -127.68",
+     "months_pos": "5/6",
+     "max_dd": 215.02,
+     "capital_needed": 493.95,
+     "roi_on_capital": 0.1541
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 3598,
+     "win_rate": 0.8719,
+     "staked": 18111.23,
+     "pnl": -3.53,
+     "roi": -0.0002,
+     "roi_ci95": [
+      -0.0136,
+      0.0144
+     ],
+     "p_roi_le0": 0.518,
+     "worst_month": "2026-09 -127.68",
+     "months_pos": "2/3",
+     "max_dd": 215.02,
+     "capital_needed": 493.95,
+     "roi_on_capital": -0.0071
+    },
+    "May-Jul": {
+     "n": 3562,
+     "win_rate": 0.8745,
+     "staked": 17931.21,
+     "pnl": 79.63,
+     "roi": 0.0044,
+     "roi_ci95": [
+      -0.0076,
+      0.0149
+     ],
+     "p_roi_le0": 0.232,
+     "worst_month": "2026-07 11.38",
+     "months_pos": "3/3",
+     "max_dd": 69.77,
+     "capital_needed": 493.61,
+     "roi_on_capital": 0.1613
+    }
+   }
+  },
+  "P_blend|slip2c|YES+NO": {
+   "n": 2558,
+   "win_rate": 0.6157,
+   "staked": 13038.05,
+   "pnl": -442.07,
+   "roi": -0.0339,
+   "roi_ci95": [
+    -0.0697,
+    0.0013
+   ],
+   "p_roi_le0": 0.97,
+   "worst_month": "2026-07 -190.89",
+   "months_pos": "0/6",
+   "max_dd": 482.82,
+   "capital_needed": 417.8,
+   "roi_on_capital": -1.0581,
+   "t_chosen": {
+    "2026-05": 0.0,
+    "2026-06": 0.02,
+    "2026-07": 0.0,
+    "2026-08": 0.02,
+    "2026-09": 0.02,
+    "2026-10": 0.02
+   },
+   "by_unit": {
+    "C": {
+     "n": 1998,
+     "win_rate": 0.6301,
+     "staked": 10179.99,
+     "pnl": -169.71,
+     "roi": -0.0167,
+     "roi_ci95": [
+      -0.0562,
+      0.0235
+     ],
+     "p_roi_le0": 0.816,
+     "worst_month": "2026-07 -87.41",
+     "months_pos": "1/6",
+     "max_dd": 204.5,
+     "capital_needed": 341.24,
+     "roi_on_capital": -0.4973
+    },
+    "F": {
+     "n": 560,
+     "win_rate": 0.5643,
+     "staked": 2858.06,
+     "pnl": -272.37,
+     "roi": -0.0953,
+     "roi_ci95": [
+      -0.1702,
+      -0.0189
+     ],
+     "p_roi_le0": 0.996,
+     "worst_month": "2026-05 -118.36",
+     "months_pos": "2/6",
+     "max_dd": 297.41,
+     "capital_needed": 96.89,
+     "roi_on_capital": -2.8111
+    }
+   },
+   "by_side": {
+    "NO": {
+     "n": 1242,
+     "win_rate": 0.8406,
+     "staked": 6264.47,
+     "pnl": 36.83,
+     "roi": 0.0059,
+     "roi_ci95": [
+      -0.0219,
+      0.03
+     ],
+     "p_roi_le0": 0.322,
+     "worst_month": "2026-07 -6.72",
+     "months_pos": "5/6",
+     "max_dd": 51.64,
+     "capital_needed": 307.15,
+     "roi_on_capital": 0.1199
+    },
+    "YES": {
+     "n": 1316,
+     "win_rate": 0.4035,
+     "staked": 6773.58,
+     "pnl": -478.9,
+     "roi": -0.0707,
+     "roi_ci95": [
+      -0.1348,
+      -0.0109
+     ],
+     "p_roi_le0": 0.986,
+     "worst_month": "2026-07 -184.18",
+     "months_pos": "0/6",
+     "max_dd": 496.46,
+     "capital_needed": 262.67,
+     "roi_on_capital": -1.8232
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 344,
+     "win_rate": 0.6076,
+     "staked": 1754.71,
+     "pnl": -38.35,
+     "roi": -0.0219,
+     "roi_ci95": [
+      -0.1242,
+      0.0654
+     ],
+     "p_roi_le0": 0.678,
+     "worst_month": "2026-10 -26.02",
+     "months_pos": "0/3",
+     "max_dd": 116.16,
+     "capital_needed": 91.86,
+     "roi_on_capital": -0.4175
+    },
+    "May-Jul": {
+     "n": 2214,
+     "win_rate": 0.617,
+     "staked": 11283.34,
+     "pnl": -403.72,
+     "roi": -0.0358,
+     "roi_ci95": [
+      -0.0811,
+      0.004
+     ],
+     "p_roi_le0": 0.968,
+     "worst_month": "2026-07 -190.89",
+     "months_pos": "0/3",
+     "max_dd": 454.7,
+     "capital_needed": 417.8,
+     "roi_on_capital": -0.9663
+    }
+   }
+  },
+  "P_blend|slip2c|YES": {
+   "n": 658,
+   "win_rate": 0.4088,
+   "staked": 3387.61,
+   "pnl": -161.53,
+   "roi": -0.0477,
+   "roi_ci95": [
+    -0.1385,
+    0.0437
+   ],
+   "p_roi_le0": 0.849,
+   "worst_month": "2026-06 -86.24",
+   "months_pos": "1/5",
+   "max_dd": 193.72,
+   "capital_needed": 175.29,
+   "roi_on_capital": -0.9215,
+   "t_chosen": {
+    "2026-05": 0.02,
+    "2026-06": 0.02,
+    "2026-07": 0.02,
+    "2026-08": 0.08,
+    "2026-09": 0.08,
+    "2026-10": 0.08
+   },
+   "by_unit": {
+    "C": {
+     "n": 506,
+     "win_rate": 0.419,
+     "staked": 2605.56,
+     "pnl": -34.11,
+     "roi": -0.0131,
+     "roi_ci95": [
+      -0.1147,
+      0.0947
+     ],
+     "p_roi_le0": 0.578,
+     "worst_month": "2026-06 -51.89",
+     "months_pos": "2/5",
+     "max_dd": 124.02,
+     "capital_needed": 154.16,
+     "roi_on_capital": -0.2213
+    },
+    "F": {
+     "n": 152,
+     "win_rate": 0.375,
+     "staked": 782.06,
+     "pnl": -127.42,
+     "roi": -0.1629,
+     "roi_ci95": [
+      -0.3352,
+      0.0438
+     ],
+     "p_roi_le0": 0.94,
+     "worst_month": "2026-05 -80.02",
+     "months_pos": "0/3",
+     "max_dd": 145.6,
+     "capital_needed": 51.74,
+     "roi_on_capital": -2.4627
+    }
+   },
+   "by_side": {
+    "YES": {
+     "n": 658,
+     "win_rate": 0.4088,
+     "staked": 3387.61,
+     "pnl": -161.53,
+     "roi": -0.0477,
+     "roi_ci95": [
+      -0.1376,
+      0.0453
+     ],
+     "p_roi_le0": 0.846,
+     "worst_month": "2026-06 -86.24",
+     "months_pos": "1/5",
+     "max_dd": 193.72,
+     "capital_needed": 175.29,
+     "roi_on_capital": -0.9215
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 2,
+     "win_rate": 0.5,
+     "staked": 10.23,
+     "pnl": -2.6,
+     "roi": -0.2542,
+     "roi_ci95": [
+      -1.0,
+      0.5008
+     ],
+     "p_roi_le0": 0.71,
+     "worst_month": "2026-08 -5.15",
+     "months_pos": "1/2",
+     "max_dd": 5.15,
+     "capital_needed": 10.23,
+     "roi_on_capital": -0.2542
+    },
+    "May-Jul": {
+     "n": 656,
+     "win_rate": 0.4085,
+     "staked": 3377.38,
+     "pnl": -158.93,
+     "roi": -0.0471,
+     "roi_ci95": [
+      -0.1331,
+      0.0433
+     ],
+     "p_roi_le0": 0.85,
+     "worst_month": "2026-06 -86.24",
+     "months_pos": "0/3",
+     "max_dd": 193.72,
+     "capital_needed": 175.29,
+     "roi_on_capital": -0.9066
+    }
+   }
+  },
+  "P_blend|slip2c|NO": {
+   "n": 3561,
+   "win_rate": 0.845,
+   "staked": 17944.41,
+   "pnl": -154.92,
+   "roi": -0.0086,
+   "roi_ci95": [
+    -0.0223,
+    0.0051
+   ],
+   "p_roi_le0": 0.8935,
+   "worst_month": "2026-09 -173.00",
+   "months_pos": "3/6",
+   "max_dd": 206.74,
+   "capital_needed": 383.25,
+   "roi_on_capital": -0.4042,
+   "t_chosen": {
+    "2026-05": 0.0,
+    "2026-06": 0.0,
+    "2026-07": 0.0,
+    "2026-08": 0.0,
+    "2026-09": 0.0,
+    "2026-10": 0.02
+   },
+   "by_unit": {
+    "C": {
+     "n": 2808,
+     "win_rate": 0.8508,
+     "staked": 14147.68,
+     "pnl": -57.91,
+     "roi": -0.0041,
+     "roi_ci95": [
+      -0.0179,
+      0.0131
+     ],
+     "p_roi_le0": 0.714,
+     "worst_month": "2026-09 -119.75",
+     "months_pos": "3/6",
+     "max_dd": 167.81,
+     "capital_needed": 312.66,
+     "roi_on_capital": -0.1852
+    },
+    "F": {
+     "n": 753,
+     "win_rate": 0.8234,
+     "staked": 3796.73,
+     "pnl": -97.0,
+     "roi": -0.0255,
+     "roi_ci95": [
+      -0.0578,
+      0.0043
+     ],
+     "p_roi_le0": 0.948,
+     "worst_month": "2026-09 -53.26",
+     "months_pos": "1/6",
+     "max_dd": 100.75,
+     "capital_needed": 95.75,
+     "roi_on_capital": -1.013
+    }
+   },
+   "by_side": {
+    "NO": {
+     "n": 3561,
+     "win_rate": 0.845,
+     "staked": 17944.41,
+     "pnl": -154.92,
+     "roi": -0.0086,
+     "roi_ci95": [
+      -0.022,
+      0.0057
+     ],
+     "p_roi_le0": 0.878,
+     "worst_month": "2026-09 -173.00",
+     "months_pos": "3/6",
+     "max_dd": 206.74,
+     "capital_needed": 383.25,
+     "roi_on_capital": -0.4042
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 1663,
+     "win_rate": 0.8413,
+     "staked": 8379.68,
+     "pnl": -125.17,
+     "roi": -0.0149,
+     "roi_ci95": [
+      -0.0351,
+      0.0066
+     ],
+     "p_roi_le0": 0.914,
+     "worst_month": "2026-09 -173.00",
+     "months_pos": "2/3",
+     "max_dd": 206.74,
+     "capital_needed": 383.25,
+     "roi_on_capital": -0.3266
+    },
+    "May-Jul": {
+     "n": 1898,
+     "win_rate": 0.8483,
+     "staked": 9564.72,
+     "pnl": -29.74,
+     "roi": -0.0031,
+     "roi_ci95": [
+      -0.0225,
+      0.0133
+     ],
+     "p_roi_le0": 0.63,
+     "worst_month": "2026-07 -44.98",
+     "months_pos": "1/3",
+     "max_dd": 66.26,
+     "capital_needed": 347.49,
+     "roi_on_capital": -0.0856
+    }
+   }
+  },
+  "P_blend|slip3c|YES+NO": {
+   "n": 616,
+   "win_rate": 0.5438,
+   "staked": 3150.19,
+   "pnl": -97.63,
+   "roi": -0.031,
+   "roi_ci95": [
+    -0.109,
+    0.0463
+   ],
+   "p_roi_le0": 0.773,
+   "worst_month": "2026-06 -84.16",
+   "months_pos": "3/6",
+   "max_dd": 122.34,
+   "capital_needed": 168.98,
+   "roi_on_capital": -0.5777,
+   "t_chosen": {
+    "2026-05": 0.02,
+    "2026-06": 0.02,
+    "2026-07": 0.02,
+    "2026-08": 0.02,
+    "2026-09": 0.02,
+    "2026-10": 0.02
+   },
+   "by_unit": {
+    "C": {
+     "n": 465,
+     "win_rate": 0.5656,
+     "staked": 2377.08,
+     "pnl": 3.08,
+     "roi": 0.0013,
+     "roi_ci95": [
+      -0.0799,
+      0.0853
+     ],
+     "p_roi_le0": 0.532,
+     "worst_month": "2026-06 -60.73",
+     "months_pos": "2/6",
+     "max_dd": 99.0,
+     "capital_needed": 132.87,
+     "roi_on_capital": 0.0232
+    },
+    "F": {
+     "n": 151,
+     "win_rate": 0.4768,
+     "staked": 773.11,
+     "pnl": -100.7,
+     "roi": -0.1303,
+     "roi_ci95": [
+      -0.3125,
+      0.0525
+     ],
+     "p_roi_le0": 0.918,
+     "worst_month": "2026-05 -76.99",
+     "months_pos": "2/6",
+     "max_dd": 133.21,
+     "capital_needed": 46.36,
+     "roi_on_capital": -2.172
+    }
+   },
+   "by_side": {
+    "NO": {
+     "n": 180,
+     "win_rate": 0.7889,
+     "staked": 910.19,
+     "pnl": 9.67,
+     "roi": 0.0106,
+     "roi_ci95": [
+      -0.0703,
+      0.0829
+     ],
+     "p_roi_le0": 0.38,
+     "worst_month": "2026-06 -10.65",
+     "months_pos": "3/6",
+     "max_dd": 22.42,
+     "capital_needed": 85.95,
+     "roi_on_capital": 0.1125
+    },
+    "YES": {
+     "n": 436,
+     "win_rate": 0.4427,
+     "staked": 2240.01,
+     "pnl": -107.3,
+     "roi": -0.0479,
+     "roi_ci95": [
+      -0.1466,
+      0.0621
+     ],
+     "p_roi_le0": 0.806,
+     "worst_month": "2026-06 -73.51",
+     "months_pos": "3/6",
+     "max_dd": 135.66,
+     "capital_needed": 123.46,
+     "roi_on_capital": -0.8691
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 123,
+     "win_rate": 0.5854,
+     "staked": 627.61,
+     "pnl": -33.38,
+     "roi": -0.0532,
+     "roi_ci95": [
+      -0.2037,
+      0.1045
+     ],
+     "p_roi_le0": 0.706,
+     "worst_month": "2026-10 -30.44",
+     "months_pos": "1/3",
+     "max_dd": 64.97,
+     "capital_needed": 45.96,
+     "roi_on_capital": -0.7263
+    },
+    "May-Jul": {
+     "n": 493,
+     "win_rate": 0.5335,
+     "staked": 2522.59,
+     "pnl": -64.25,
+     "roi": -0.0255,
+     "roi_ci95": [
+      -0.1155,
+      0.0582
+     ],
+     "p_roi_le0": 0.718,
+     "worst_month": "2026-06 -84.16",
+     "months_pos": "2/3",
+     "max_dd": 122.34,
+     "capital_needed": 168.98,
+     "roi_on_capital": -0.3802
+    }
+   }
+  },
+  "P_blend|slip3c|YES": {
+   "n": 326,
+   "win_rate": 0.4325,
+   "staked": 1676.27,
+   "pnl": -73.03,
+   "roi": -0.0436,
+   "roi_ci95": [
+    -0.157,
+    0.0648
+   ],
+   "p_roi_le0": 0.7765,
+   "worst_month": "2026-06 -73.51",
+   "months_pos": "2/5",
+   "max_dd": 92.76,
+   "capital_needed": 133.82,
+   "roi_on_capital": -0.5458,
+   "t_chosen": {
+    "2026-05": 0.02,
+    "2026-06": 0.02,
+    "2026-07": 0.08,
+    "2026-08": 0.08,
+    "2026-09": 0.08,
+    "2026-10": 0.08
+   },
+   "by_unit": {
+    "C": {
+     "n": 247,
+     "win_rate": 0.4453,
+     "staked": 1270.31,
+     "pnl": -2.66,
+     "roi": -0.0021,
+     "roi_ci95": [
+      -0.1322,
+      0.1421
+     ],
+     "p_roi_le0": 0.488,
+     "worst_month": "2026-06 -55.15",
+     "months_pos": "2/4",
+     "max_dd": 82.95,
+     "capital_needed": 102.8,
+     "roi_on_capital": -0.0259
+    },
+    "F": {
+     "n": 79,
+     "win_rate": 0.3924,
+     "staked": 405.96,
+     "pnl": -70.38,
+     "roi": -0.1734,
+     "roi_ci95": [
+      -0.4282,
+      0.097
+     ],
+     "p_roi_le0": 0.896,
+     "worst_month": "2026-05 -46.93",
+     "months_pos": "0/3",
+     "max_dd": 98.08,
+     "capital_needed": 36.22,
+     "roi_on_capital": -1.9433
+    }
+   },
+   "by_side": {
+    "YES": {
+     "n": 326,
+     "win_rate": 0.4325,
+     "staked": 1676.27,
+     "pnl": -73.03,
+     "roi": -0.0436,
+     "roi_ci95": [
+      -0.159,
+      0.0657
+     ],
+     "p_roi_le0": 0.802,
+     "worst_month": "2026-06 -73.51",
+     "months_pos": "2/5",
+     "max_dd": 92.76,
+     "capital_needed": 133.82,
+     "roi_on_capital": -0.5458
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 2,
+     "win_rate": 0.5,
+     "staked": 10.23,
+     "pnl": -2.71,
+     "roi": -0.265,
+     "roi_ci95": [
+      -1.0,
+      0.479
+     ],
+     "p_roi_le0": 0.71,
+     "worst_month": "2026-08 -5.15",
+     "months_pos": "1/2",
+     "max_dd": 5.15,
+     "capital_needed": 10.23,
+     "roi_on_capital": -0.265
+    },
+    "May-Jul": {
+     "n": 324,
+     "win_rate": 0.4321,
+     "staked": 1666.04,
+     "pnl": -70.32,
+     "roi": -0.0422,
+     "roi_ci95": [
+      -0.1582,
+      0.0663
+     ],
+     "p_roi_le0": 0.768,
+     "worst_month": "2026-06 -73.51",
+     "months_pos": "1/3",
+     "max_dd": 90.87,
+     "capital_needed": 133.82,
+     "roi_on_capital": -0.5255
+    }
+   }
+  },
+  "P_blend|slip3c|NO": {
+   "n": 251,
+   "win_rate": 0.7928,
+   "staked": 1268.44,
+   "pnl": -0.98,
+   "roi": -0.0008,
+   "roi_ci95": [
+    -0.0649,
+    0.0643
+   ],
+   "p_roi_le0": 0.5015,
+   "worst_month": "2026-06 -12.53",
+   "months_pos": "3/6",
+   "max_dd": 32.48,
+   "capital_needed": 96.14,
+   "roi_on_capital": -0.0102,
+   "t_chosen": {
+    "2026-05": 0.02,
+    "2026-06": 0.02,
+    "2026-07": 0.02,
+    "2026-08": 0.02,
+    "2026-09": 0.02,
+    "2026-10": 0.02
+   },
+   "by_unit": {
+    "C": {
+     "n": 196,
+     "win_rate": 0.8112,
+     "staked": 990.28,
+     "pnl": 18.86,
+     "roi": 0.019,
+     "roi_ci95": [
+      -0.0511,
+      0.0912
+     ],
+     "p_roi_le0": 0.266,
+     "worst_month": "2026-06 -2.38",
+     "months_pos": "4/6",
+     "max_dd": 22.96,
+     "capital_needed": 80.94,
+     "roi_on_capital": 0.233
+    },
+    "F": {
+     "n": 55,
+     "win_rate": 0.7273,
+     "staked": 278.16,
+     "pnl": -19.83,
+     "roi": -0.0713,
+     "roi_ci95": [
+      -0.2058,
+      0.0748
+     ],
+     "p_roi_le0": 0.806,
+     "worst_month": "2026-05 -18.87",
+     "months_pos": "1/5",
+     "max_dd": 35.89,
+     "capital_needed": 30.34,
+     "roi_on_capital": -0.6538
+    }
+   },
+   "by_side": {
+    "NO": {
+     "n": 251,
+     "win_rate": 0.7928,
+     "staked": 1268.44,
+     "pnl": -0.98,
+     "roi": -0.0008,
+     "roi_ci95": [
+      -0.0627,
+      0.0672
+     ],
+     "p_roi_le0": 0.556,
+     "worst_month": "2026-06 -12.53",
+     "months_pos": "3/6",
+     "max_dd": 32.48,
+     "capital_needed": 96.14,
+     "roi_on_capital": -0.0102
+    }
+   },
+   "by_half": {
+    "Aug-Oct": {
+     "n": 49,
+     "win_rate": 0.8163,
+     "staked": 247.87,
+     "pnl": 9.95,
+     "roi": 0.0402,
+     "roi_ci95": [
+      -0.1319,
+      0.1821
+     ],
+     "p_roi_le0": 0.318,
+     "worst_month": "2026-10 -0.19",
+     "months_pos": "2/3",
+     "max_dd": 15.82,
+     "capital_needed": 25.33,
+     "roi_on_capital": 0.3929
+    },
+    "May-Jul": {
+     "n": 202,
+     "win_rate": 0.7871,
+     "staked": 1020.57,
+     "pnl": -10.93,
+     "roi": -0.0107,
+     "roi_ci95": [
+      -0.0816,
+      0.0505
+     ],
+     "p_roi_le0": 0.618,
+     "worst_month": "2026-06 -12.53",
+     "months_pos": "1/3",
+     "max_dd": 32.48,
+     "capital_needed": 96.14,
+     "roi_on_capital": -0.1137
+    }
+   }
+  }
+ },
+ "trading_monthly_pnl": {
+  "P_model|slip1c|YES+NO": {
+   "2026-05": -263.19,
+   "2026-06": -637.89,
+   "2026-07": -124.04,
+   "2026-08": -68.06,
+   "2026-09": -101.01,
+   "2026-10": -34.73
+  },
+  "P_model|slip1c|YES": {
+   "2026-05": -808.72,
+   "2026-06": -277.3,
+   "2026-07": -205.41,
+   "2026-08": 31.33,
+   "2026-09": -188.37,
+   "2026-10": -103.14
+  },
+  "P_model|slip1c|NO": {
+   "2026-05": -212.82,
+   "2026-06": -452.27,
+   "2026-07": -112.44,
+   "2026-08": 33.66,
+   "2026-09": 6.53,
+   "2026-10": -36.03
+  },
+  "P_model|slip2c|YES+NO": {
+   "2026-05": -464.54,
+   "2026-06": -875.94,
+   "2026-07": 55.92,
+   "2026-08": -34.49,
+   "2026-09": -133.67,
+   "2026-10": -11.67
+  },
+  "P_model|slip2c|YES": {
+   "2026-05": -525.13,
+   "2026-06": -454.36,
+   "2026-07": -15.2,
+   "2026-08": 17.18,
+   "2026-09": -224.87,
+   "2026-10": -96.0
+  },
+  "P_model|slip2c|NO": {
+   "2026-05": -296.36,
+   "2026-06": -385.91,
+   "2026-07": -104.29,
+   "2026-08": -1.45,
+   "2026-09": 6.54,
+   "2026-10": -13.86
+  },
+  "P_model|slip3c|YES+NO": {
+   "2026-05": -587.34,
+   "2026-06": -365.0,
+   "2026-07": 36.62,
+   "2026-08": -29.92,
+   "2026-09": -40.78,
+   "2026-10": -45.97
+  },
+  "P_model|slip3c|YES": {
+   "2026-05": -46.27,
+   "2026-06": -338.24,
+   "2026-07": 9.21,
+   "2026-08": -18.93,
+   "2026-09": -125.31,
+   "2026-10": -82.5
+  },
+  "P_model|slip3c|NO": {
+   "2026-05": -301.31,
+   "2026-06": -534.65,
+   "2026-07": 24.29,
+   "2026-08": -0.82,
+   "2026-09": -25.6,
+   "2026-10": 0.3
+  },
+  "P_blend|slip1c|YES+NO": {
+   "2026-05": -41.12,
+   "2026-06": 85.59,
+   "2026-07": -90.05,
+   "2026-08": 24.08,
+   "2026-09": -198.33,
+   "2026-10": -29.35
+  },
+  "P_blend|slip1c|YES": {
+   "2026-05": -56.43,
+   "2026-06": -54.55,
+   "2026-07": 7.06,
+   "2026-08": -6.95,
+   "2026-09": 9.34,
+   "2026-10": -29.78
+  },
+  "P_blend|slip1c|NO": {
+   "2026-05": 45.63,
+   "2026-06": 22.62,
+   "2026-07": 11.38,
+   "2026-08": 54.75,
+   "2026-09": -127.68,
+   "2026-10": 69.4
+  },
+  "P_blend|slip2c|YES+NO": {
+   "2026-05": -150.15,
+   "2026-06": -62.68,
+   "2026-07": -190.89,
+   "2026-08": -6.09,
+   "2026-09": -6.24,
+   "2026-10": -26.02
+  },
+  "P_blend|slip2c|YES": {
+   "2026-05": -16.21,
+   "2026-06": -86.24,
+   "2026-07": -56.47,
+   "2026-08": -5.15,
+   "2026-09": 2.55
+  },
+  "P_blend|slip2c|NO": {
+   "2026-05": -20.23,
+   "2026-06": 35.47,
+   "2026-07": -44.98,
+   "2026-08": 41.44,
+   "2026-09": -173.0,
+   "2026-10": 6.39
+  },
+  "P_blend|slip3c|YES+NO": {
+   "2026-05": 8.99,
+   "2026-06": -84.16,
+   "2026-07": 10.93,
+   "2026-08": -5.79,
+   "2026-09": 2.84,
+   "2026-10": -30.44
+  },
+  "P_blend|slip3c|YES": {
+   "2026-05": 8.28,
+   "2026-06": -73.51,
+   "2026-07": -5.09,
+   "2026-08": -5.15,
+   "2026-09": 2.44
+  },
+  "P_blend|slip3c|NO": {
+   "2026-05": -10.69,
+   "2026-06": -12.53,
+   "2026-07": 12.29,
+   "2026-08": 8.78,
+   "2026-09": 1.37,
+   "2026-10": -0.19
+  }
+ },
+ "fixed_threshold_reference": {
+  "P_model|slip1c|t0.0": {
+   "n": 2058,
+   "win_rate": 0.5845,
+   "staked": 10526.27,
+   "pnl": 897.91,
+   "roi": 0.0853,
+   "roi_ci95": [
+    0.0234,
+    0.159
+   ],
+   "p_roi_le0": 0.0033,
+   "worst_month": "2026-02 -111.19",
+   "months_pos": "3/7",
+   "max_dd": 185.78,
+   "capital_needed": 482.1,
+   "roi_on_capital": 1.8625
+  },
+  "P_model|slip1c|t0.0|OOS_fixed": {
+   "n": 7941,
+   "win_rate": 0.5365,
+   "staked": 40594.41,
+   "pnl": -2498.52,
+   "roi": -0.0615,
+   "roi_ci95": [
+    -0.0934,
+    -0.0267
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-09 -1102.01",
+   "months_pos": "0/6",
+   "max_dd": 2592.22,
+   "capital_needed": 512.26,
+   "roi_on_capital": -4.8775
+  },
+  "P_model|slip1c|t0.05": {
+   "n": 1729,
+   "win_rate": 0.5795,
+   "staked": 8849.45,
+   "pnl": 960.71,
+   "roi": 0.1086,
+   "roi_ci95": [
+    0.0353,
+    0.1946
+   ],
+   "p_roi_le0": 0.0033,
+   "worst_month": "2026-04 -56.61",
+   "months_pos": "3/7",
+   "max_dd": 236.41,
+   "capital_needed": 399.8,
+   "roi_on_capital": 2.403
+  },
+  "P_model|slip1c|t0.05|OOS_fixed": {
+   "n": 6501,
+   "win_rate": 0.5236,
+   "staked": 33249.95,
+   "pnl": -2390.69,
+   "roi": -0.0719,
+   "roi_ci95": [
+    -0.1051,
+    -0.0378
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-09 -967.55",
+   "months_pos": "0/6",
+   "max_dd": 2536.91,
+   "capital_needed": 471.18,
+   "roi_on_capital": -5.0738
+  },
+  "P_model|slip1c|t0.1": {
+   "n": 1129,
+   "win_rate": 0.5695,
+   "staked": 5786.62,
+   "pnl": 834.02,
+   "roi": 0.1441,
+   "roi_ci95": [
+    0.0417,
+    0.2374
+   ],
+   "p_roi_le0": 0.0,
+   "worst_month": "2026-02 -57.36",
+   "months_pos": "4/7",
+   "max_dd": 139.61,
+   "capital_needed": 267.0,
+   "roi_on_capital": 3.1236
+  },
+  "P_model|slip1c|t0.1|OOS_fixed": {
+   "n": 4068,
+   "win_rate": 0.4889,
+   "staked": 20831.57,
+   "pnl": -2300.96,
+   "roi": -0.1105,
+   "roi_ci95": [
+    -0.1531,
+    -0.0708
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-06 -917.36",
+   "months_pos": "1/6",
+   "max_dd": 2391.73,
+   "capital_needed": 383.67,
+   "roi_on_capital": -5.9972
+  },
+  "P_model|slip1c|t0.2": {
+   "n": 386,
+   "win_rate": 0.5363,
+   "staked": 1984.74,
+   "pnl": 472.15,
+   "roi": 0.2379,
+   "roi_ci95": [
+    0.1058,
+    0.4097
+   ],
+   "p_roi_le0": 0.0,
+   "worst_month": "2026-02 -60.68",
+   "months_pos": "5/7",
+   "max_dd": 81.62,
+   "capital_needed": 67.33,
+   "roi_on_capital": 7.0123
+  },
+  "P_model|slip1c|t0.2|OOS_fixed": {
+   "n": 1101,
+   "win_rate": 0.416,
+   "staked": 5661.67,
+   "pnl": -714.47,
+   "roi": -0.1262,
+   "roi_ci95": [
+    -0.2075,
+    -0.0365
+   ],
+   "p_roi_le0": 0.9933,
+   "worst_month": "2026-06 -356.04",
+   "months_pos": "1/6",
+   "max_dd": 756.81,
+   "capital_needed": 189.67,
+   "roi_on_capital": -3.767
+  },
+  "P_model|slip2c|t0.0": {
+   "n": 2032,
+   "win_rate": 0.5881,
+   "staked": 10387.16,
+   "pnl": 515.45,
+   "roi": 0.0496,
+   "roi_ci95": [
+    -0.0048,
+    0.1146
+   ],
+   "p_roi_le0": 0.0567,
+   "worst_month": "2026-04 -228.57",
+   "months_pos": "3/7",
+   "max_dd": 337.82,
+   "capital_needed": 471.5,
+   "roi_on_capital": 1.0932
+  },
+  "P_model|slip2c|t0.0|OOS_fixed": {
+   "n": 7859,
+   "win_rate": 0.5381,
+   "staked": 40151.52,
+   "pnl": -3457.86,
+   "roi": -0.0861,
+   "roi_ci95": [
+    -0.1157,
+    -0.054
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-09 -1237.55",
+   "months_pos": "0/6",
+   "max_dd": 3457.86,
+   "capital_needed": 506.72,
+   "roi_on_capital": -6.824
+  },
+  "P_model|slip2c|t0.05": {
+   "n": 1625,
+   "win_rate": 0.5791,
+   "staked": 8315.4,
+   "pnl": 751.29,
+   "roi": 0.0903,
+   "roi_ci95": [
+    0.0205,
+    0.1763
+   ],
+   "p_roi_le0": 0.01,
+   "worst_month": "2026-04 -126.77",
+   "months_pos": "3/7",
+   "max_dd": 246.37,
+   "capital_needed": 384.26,
+   "roi_on_capital": 1.9552
+  },
+  "P_model|slip2c|t0.05|OOS_fixed": {
+   "n": 6053,
+   "win_rate": 0.5197,
+   "staked": 30946.14,
+   "pnl": -3219.22,
+   "roi": -0.104,
+   "roi_ci95": [
+    -0.1354,
+    -0.0723
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-09 -1061.82",
+   "months_pos": "0/6",
+   "max_dd": 3221.99,
+   "capital_needed": 465.87,
+   "roi_on_capital": -6.9101
+  },
+  "P_model|slip2c|t0.1": {
+   "n": 1033,
+   "win_rate": 0.5731,
+   "staked": 5291.64,
+   "pnl": 653.48,
+   "roi": 0.1235,
+   "roi_ci95": [
+    0.0286,
+    0.2255
+   ],
+   "p_roi_le0": 0.0067,
+   "worst_month": "2026-02 -63.77",
+   "months_pos": "3/7",
+   "max_dd": 168.8,
+   "capital_needed": 235.82,
+   "roi_on_capital": 2.7711
+  },
+  "P_model|slip2c|t0.1|OOS_fixed": {
+   "n": 3603,
+   "win_rate": 0.4857,
+   "staked": 18446.03,
+   "pnl": -2455.42,
+   "roi": -0.1331,
+   "roi_ci95": [
+    -0.1728,
+    -0.092
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-06 -791.98",
+   "months_pos": "1/6",
+   "max_dd": 2507.93,
+   "capital_needed": 357.83,
+   "roi_on_capital": -6.862
+  },
+  "P_model|slip2c|t0.2": {
+   "n": 346,
+   "win_rate": 0.5289,
+   "staked": 1778.26,
+   "pnl": 300.32,
+   "roi": 0.1689,
+   "roi_ci95": [
+    0.0124,
+    0.3479
+   ],
+   "p_roi_le0": 0.02,
+   "worst_month": "2026-02 -63.05",
+   "months_pos": "5/7",
+   "max_dd": 79.17,
+   "capital_needed": 66.74,
+   "roi_on_capital": 4.5
+  },
+  "P_model|slip2c|t0.2|OOS_fixed": {
+   "n": 935,
+   "win_rate": 0.4086,
+   "staked": 4807.8,
+   "pnl": -823.26,
+   "roi": -0.1712,
+   "roi_ci95": [
+    -0.2519,
+    -0.0824
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-06 -337.44",
+   "months_pos": "0/6",
+   "max_dd": 853.96,
+   "capital_needed": 158.82,
+   "roi_on_capital": -5.1836
+  },
+  "P_model|slip3c|t0.0": {
+   "n": 1996,
+   "win_rate": 0.5912,
+   "staked": 10197.48,
+   "pnl": 300.29,
+   "roi": 0.0294,
+   "roi_ci95": [
+    -0.0234,
+    0.0895
+   ],
+   "p_roi_le0": 0.1633,
+   "worst_month": "2026-04 -300.33",
+   "months_pos": "3/7",
+   "max_dd": 402.66,
+   "capital_needed": 460.82,
+   "roi_on_capital": 0.6516
+  },
+  "P_model|slip3c|t0.0|OOS_fixed": {
+   "n": 7673,
+   "win_rate": 0.539,
+   "staked": 39179.49,
+   "pnl": -4354.34,
+   "roi": -0.1111,
+   "roi_ci95": [
+    -0.1367,
+    -0.0815
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-09 -1349.51",
+   "months_pos": "0/6",
+   "max_dd": 4354.34,
+   "capital_needed": 501.66,
+   "roi_on_capital": -8.6798
+  },
+  "P_model|slip3c|t0.05": {
+   "n": 1514,
+   "win_rate": 0.5779,
+   "staked": 7744.21,
+   "pnl": 463.05,
+   "roi": 0.0598,
+   "roi_ci95": [
+    -0.0062,
+    0.1355
+   ],
+   "p_roi_le0": 0.0333,
+   "worst_month": "2026-04 -227.44",
+   "months_pos": "3/7",
+   "max_dd": 294.7,
+   "capital_needed": 353.2,
+   "roi_on_capital": 1.311
+  },
+  "P_model|slip3c|t0.05|OOS_fixed": {
+   "n": 5541,
+   "win_rate": 0.5154,
+   "staked": 28319.81,
+   "pnl": -3764.5,
+   "roi": -0.1329,
+   "roi_ci95": [
+    -0.1645,
+    -0.099
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-09 -1034.07",
+   "months_pos": "0/6",
+   "max_dd": 3764.5,
+   "capital_needed": 450.21,
+   "roi_on_capital": -8.3617
+  },
+  "P_model|slip3c|t0.1": {
+   "n": 928,
+   "win_rate": 0.57,
+   "staked": 4753.26,
+   "pnl": 474.13,
+   "roi": 0.0997,
+   "roi_ci95": [
+    0.01,
+    0.2039
+   ],
+   "p_roi_le0": 0.0133,
+   "worst_month": "2026-02 -86.31",
+   "months_pos": "3/7",
+   "max_dd": 151.02,
+   "capital_needed": 209.93,
+   "roi_on_capital": 2.2585
+  },
+  "P_model|slip3c|t0.1|OOS_fixed": {
+   "n": 3203,
+   "win_rate": 0.4774,
+   "staked": 16396.51,
+   "pnl": -2572.08,
+   "roi": -0.1569,
+   "roi_ci95": [
+    -0.1969,
+    -0.1143
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-06 -788.08",
+   "months_pos": "0/6",
+   "max_dd": 2581.98,
+   "capital_needed": 332.23,
+   "roi_on_capital": -7.7418
+  },
+  "P_model|slip3c|t0.2": {
+   "n": 300,
+   "win_rate": 0.5333,
+   "staked": 1541.67,
+   "pnl": 250.6,
+   "roi": 0.1626,
+   "roi_ci95": [
+    -0.0261,
+    0.3525
+   ],
+   "p_roi_le0": 0.04,
+   "worst_month": "2026-02 -77.97",
+   "months_pos": "3/7",
+   "max_dd": 89.83,
+   "capital_needed": 66.47,
+   "roi_on_capital": 3.77
+  },
+  "P_model|slip3c|t0.2|OOS_fixed": {
+   "n": 788,
+   "win_rate": 0.3871,
+   "staked": 4053.5,
+   "pnl": -858.85,
+   "roi": -0.2119,
+   "roi_ci95": [
+    -0.3189,
+    -0.1171
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-06 -327.50",
+   "months_pos": "0/6",
+   "max_dd": 885.88,
+   "capital_needed": 143.47,
+   "roi_on_capital": -5.9864
+  },
+  "P_blend|slip1c|t0.0": {
+   "n": 1581,
+   "win_rate": 0.6546,
+   "staked": 8059.18,
+   "pnl": 609.2,
+   "roi": 0.0756,
+   "roi_ci95": [
+    0.0269,
+    0.1256
+   ],
+   "p_roi_le0": 0.0,
+   "worst_month": "2026-02 61.38",
+   "months_pos": "3/3",
+   "max_dd": 89.17,
+   "capital_needed": 434.55,
+   "roi_on_capital": 1.4019
+  },
+  "P_blend|slip1c|t0.0|OOS_fixed": {
+   "n": 7694,
+   "win_rate": 0.6998,
+   "staked": 39066.59,
+   "pnl": -346.89,
+   "roi": -0.0089,
+   "roi_ci95": [
+    -0.0276,
+    0.0101
+   ],
+   "p_roi_le0": 0.82,
+   "worst_month": "2026-09 -198.33",
+   "months_pos": "2/6",
+   "max_dd": 491.89,
+   "capital_needed": 498.99,
+   "roi_on_capital": -0.6952
+  },
+  "P_blend|slip1c|t0.05": {
+   "n": 521,
+   "win_rate": 0.6219,
+   "staked": 2663.21,
+   "pnl": 336.84,
+   "roi": 0.1265,
+   "roi_ci95": [
+    0.0243,
+    0.2373
+   ],
+   "p_roi_le0": 0.0067,
+   "worst_month": "2026-02 67.44",
+   "months_pos": "3/3",
+   "max_dd": 43.42,
+   "capital_needed": 107.54,
+   "roi_on_capital": 3.1323
+  },
+  "P_blend|slip1c|t0.05|OOS_fixed": {
+   "n": 328,
+   "win_rate": 0.5305,
+   "staked": 1679.35,
+   "pnl": -21.69,
+   "roi": -0.0129,
+   "roi_ci95": [
+    -0.1262,
+    0.0853
+   ],
+   "p_roi_le0": 0.6233,
+   "worst_month": "2026-05 -16.38",
+   "months_pos": "2/6",
+   "max_dd": 71.75,
+   "capital_needed": 112.56,
+   "roi_on_capital": -0.1927
+  },
+  "P_blend|slip1c|t0.1": {
+   "n": 127,
+   "win_rate": 0.6378,
+   "staked": 650.28,
+   "pnl": 178.95,
+   "roi": 0.2752,
+   "roi_ci95": [
+    0.0889,
+    0.4787
+   ],
+   "p_roi_le0": 0.0,
+   "worst_month": "2026-02 29.60",
+   "months_pos": "3/3",
+   "max_dd": 24.6,
+   "capital_needed": 41.03,
+   "roi_on_capital": 4.361
+  },
+  "P_blend|slip1c|t0.1|OOS_fixed": {
+   "n": 31,
+   "win_rate": 0.5161,
+   "staked": 158.85,
+   "pnl": -12.19,
+   "roi": -0.0767,
+   "roi_ci95": [
+    -0.3778,
+    0.271
+   ],
+   "p_roi_le0": 0.69,
+   "worst_month": "2026-05 -20.50",
+   "months_pos": "2/4",
+   "max_dd": 35.03,
+   "capital_needed": 20.57,
+   "roi_on_capital": -0.5923
+  },
+  "P_blend|slip1c|t0.2": {
+   "n": 10,
+   "win_rate": 0.8,
+   "staked": 51.32,
+   "pnl": 44.13,
+   "roi": 0.8599,
+   "roi_ci95": [
+    0.0749,
+    1.7585
+   ],
+   "p_roi_le0": 0.01,
+   "worst_month": "2026-04 1.87",
+   "months_pos": "3/3",
+   "max_dd": 5.17,
+   "capital_needed": 10.32,
+   "roi_on_capital": 4.276
+  },
+  "P_blend|slip1c|t0.2|OOS_fixed": {
+   "n": 2,
+   "win_rate": 0.5,
+   "staked": 10.22,
+   "pnl": -1.67,
+   "roi": -0.1634,
+   "roi_ci95": [
+    -1.0,
+    0.6747
+   ],
+   "p_roi_le0": 0.7067,
+   "worst_month": "2026-05 -1.67",
+   "months_pos": "0/1",
+   "max_dd": 5.11,
+   "capital_needed": 10.22,
+   "roi_on_capital": -0.1634
+  },
+  "P_blend|slip2c|t0.0": {
+   "n": 1441,
+   "win_rate": 0.6475,
+   "staked": 7345.81,
+   "pnl": 434.68,
+   "roi": 0.0592,
+   "roi_ci95": [
+    0.01,
+    0.109
+   ],
+   "p_roi_le0": 0.01,
+   "worst_month": "2026-02 58.27",
+   "months_pos": "3/3",
+   "max_dd": 120.59,
+   "capital_needed": 398.6,
+   "roi_on_capital": 1.0905
+  },
+  "P_blend|slip2c|t0.0|OOS_fixed": {
+   "n": 5364,
+   "win_rate": 0.6629,
+   "staked": 27273.18,
+   "pnl": -795.61,
+   "roi": -0.0292,
+   "roi_ci95": [
+    -0.0532,
+    -0.0072
+   ],
+   "p_roi_le0": 0.9933,
+   "worst_month": "2026-09 -300.39",
+   "months_pos": "1/6",
+   "max_dd": 811.95,
+   "capital_needed": 417.8,
+   "roi_on_capital": -1.9043
+  },
+  "P_blend|slip2c|t0.05": {
+   "n": 387,
+   "win_rate": 0.6279,
+   "staked": 1978.26,
+   "pnl": 267.83,
+   "roi": 0.1354,
+   "roi_ci95": [
+    0.0392,
+    0.2417
+   ],
+   "p_roi_le0": 0.0,
+   "worst_month": "2026-02 62.38",
+   "months_pos": "3/3",
+   "max_dd": 39.68,
+   "capital_needed": 81.98,
+   "roi_on_capital": 3.2669
+  },
+  "P_blend|slip2c|t0.05|OOS_fixed": {
+   "n": 189,
+   "win_rate": 0.5185,
+   "staked": 967.88,
+   "pnl": -52.77,
+   "roi": -0.0545,
+   "roi_ci95": [
+    -0.1826,
+    0.0983
+   ],
+   "p_roi_le0": 0.76,
+   "worst_month": "2026-05 -48.48",
+   "months_pos": "3/6",
+   "max_dd": 71.0,
+   "capital_needed": 92.23,
+   "roi_on_capital": -0.5722
+  },
+  "P_blend|slip2c|t0.1": {
+   "n": 96,
+   "win_rate": 0.6667,
+   "staked": 491.74,
+   "pnl": 171.84,
+   "roi": 0.3495,
+   "roi_ci95": [
+    0.1482,
+    0.5712
+   ],
+   "p_roi_le0": 0.0,
+   "worst_month": "2026-02 28.96",
+   "months_pos": "3/3",
+   "max_dd": 16.63,
+   "capital_needed": 35.86,
+   "roi_on_capital": 4.7923
+  },
+  "P_blend|slip2c|t0.1|OOS_fixed": {
+   "n": 23,
+   "win_rate": 0.5652,
+   "staked": 117.75,
+   "pnl": 6.71,
+   "roi": 0.057,
+   "roi_ci95": [
+    -0.3407,
+    0.5135
+   ],
+   "p_roi_le0": 0.4,
+   "worst_month": "2026-05 -1.06",
+   "months_pos": "2/4",
+   "max_dd": 25.17,
+   "capital_needed": 15.46,
+   "roi_on_capital": 0.4341
+  },
+  "P_blend|slip2c|t0.2": {
+   "n": 8,
+   "win_rate": 0.875,
+   "staked": 40.99,
+   "pnl": 40.61,
+   "roi": 0.9906,
+   "roi_ci95": [
+    0.1806,
+    2.0762
+   ],
+   "p_roi_le0": 0.0067,
+   "worst_month": "2026-02 2.34",
+   "months_pos": "3/3",
+   "max_dd": 5.16,
+   "capital_needed": 10.31,
+   "roi_on_capital": 3.937
+  },
+  "P_blend|slip2c|t0.2|OOS_fixed": {
+   "n": 2,
+   "win_rate": 0.5,
+   "staked": 10.21,
+   "pnl": -1.81,
+   "roi": -0.177,
+   "roi_ci95": [
+    -1.0,
+    0.6473
+   ],
+   "p_roi_le0": 0.7067,
+   "worst_month": "2026-05 -1.81",
+   "months_pos": "0/1",
+   "max_dd": 5.11,
+   "capital_needed": 10.21,
+   "roi_on_capital": -0.177
+  },
+  "P_blend|slip3c|t0.0": {
+   "n": 1232,
+   "win_rate": 0.6396,
+   "staked": 6280.5,
+   "pnl": 243.62,
+   "roi": 0.0388,
+   "roi_ci95": [
+    -0.0128,
+    0.0939
+   ],
+   "p_roi_le0": 0.0867,
+   "worst_month": "2026-02 32.19",
+   "months_pos": "3/3",
+   "max_dd": 102.93,
+   "capital_needed": 342.15,
+   "roi_on_capital": 0.712
+  },
+  "P_blend|slip3c|t0.0|OOS_fixed": {
+   "n": 2703,
+   "win_rate": 0.596,
+   "staked": 13776.9,
+   "pnl": -888.93,
+   "roi": -0.0645,
+   "roi_ci95": [
+    -0.0962,
+    -0.0348
+   ],
+   "p_roi_le0": 1.0,
+   "worst_month": "2026-09 -228.57",
+   "months_pos": "0/6",
+   "max_dd": 901.11,
+   "capital_needed": 310.77,
+   "roi_on_capital": -2.8604
+  },
+  "P_blend|slip3c|t0.05": {
+   "n": 289,
+   "win_rate": 0.6298,
+   "staked": 1476.94,
+   "pnl": 197.76,
+   "roi": 0.1339,
+   "roi_ci95": [
+    0.0188,
+    0.2604
+   ],
+   "p_roi_le0": 0.01,
+   "worst_month": "2026-02 34.13",
+   "months_pos": "3/3",
+   "max_dd": 37.82,
+   "capital_needed": 61.57,
+   "roi_on_capital": 3.2121
+  },
+  "P_blend|slip3c|t0.05|OOS_fixed": {
+   "n": 113,
+   "win_rate": 0.531,
+   "staked": 578.36,
+   "pnl": -42.54,
+   "roi": -0.0735,
+   "roi_ci95": [
+    -0.2589,
+    0.12
+   ],
+   "p_roi_le0": 0.7733,
+   "worst_month": "2026-05 -43.11",
+   "months_pos": "3/6",
+   "max_dd": 66.84,
+   "capital_needed": 56.54,
+   "roi_on_capital": -0.7523
+  },
+  "P_blend|slip3c|t0.1": {
+   "n": 75,
+   "win_rate": 0.6533,
+   "staked": 383.85,
+   "pnl": 88.31,
+   "roi": 0.2301,
+   "roi_ci95": [
+    -0.0123,
+    0.4958
+   ],
+   "p_roi_le0": 0.0367,
+   "worst_month": "2026-02 13.37",
+   "months_pos": "3/3",
+   "max_dd": 17.15,
+   "capital_needed": 25.74,
+   "roi_on_capital": 3.4304
+  },
+  "P_blend|slip3c|t0.1|OOS_fixed": {
+   "n": 15,
+   "win_rate": 0.5333,
+   "staked": 76.86,
+   "pnl": 1.18,
+   "roi": 0.0154,
+   "roi_ci95": [
+    -0.5225,
+    0.5893
+   ],
+   "p_roi_le0": 0.4867,
+   "worst_month": "2026-05 -8.77",
+   "months_pos": "2/3",
+   "max_dd": 22.55,
+   "capital_needed": 15.45,
+   "roi_on_capital": 0.0765
+  },
+  "P_blend|slip3c|t0.2": {
+   "n": 4,
+   "win_rate": 0.75,
+   "staked": 20.49,
+   "pnl": 7.2,
+   "roi": 0.3514,
+   "roi_ci95": [
+    -0.5264,
+    0.9236
+   ],
+   "p_roi_le0": 0.2,
+   "worst_month": "2026-02 -5.16",
+   "months_pos": "2/3",
+   "max_dd": 5.16,
+   "capital_needed": 10.25,
+   "roi_on_capital": 0.7022
+  },
+  "P_blend|slip3c|t0.2|OOS_fixed": {
+   "n": 1,
+   "win_rate": 1.0,
+   "staked": 5.1,
+   "pnl": 3.17,
+   "roi": 0.6209,
+   "roi_ci95": [
+    0.6209,
+    0.6209
+   ],
+   "p_roi_le0": 0.0,
+   "worst_month": "2026-05 3.17",
+   "months_pos": "1/1",
+   "max_dd": 0.0,
+   "capital_needed": 5.1,
+   "roi_on_capital": 0.6209
+  }
+ },
+ "favourite": {
+  "by_agree": {
+   "false": {
+    "n": 4472,
+    "price": 0.3669,
+    "P_model": 0.2244,
+    "won": 0.3741,
+    "edge_vs_price": 0.0072
+   },
+   "true": {
+    "n": 5599,
+    "price": 0.438,
+    "P_model": 0.4076,
+    "won": 0.4674,
+    "edge_vs_price": 0.0294
+   }
+  },
+  "P_agree_given_win": 0.61,
+  "P_agree_given_loss": 0.5158,
+  "by_model_minus_price": {
+   "(-1.0, -0.2]": {
+    "n": 1269,
+    "price": 0.4725,
+    "P_model": 0.2015,
+    "won": 0.4697,
+    "edge_vs_price": -0.0028
+   },
+   "(-0.2, -0.1]": {
+    "n": 2698,
+    "price": 0.4045,
+    "P_model": 0.2615,
+    "won": 0.4044,
+    "edge_vs_price": -0.0001
+   },
+   "(-0.1, 0.0]": {
+    "n": 4016,
+    "price": 0.3851,
+    "P_model": 0.3338,
+    "won": 0.4166,
+    "edge_vs_price": 0.0315
+   },
+   "(0.0, 0.1]": {
+    "n": 1701,
+    "price": 0.4008,
+    "P_model": 0.4366,
+    "won": 0.4309,
+    "edge_vs_price": 0.0301
+   },
+   "(0.1, 0.2]": {
+    "n": 282,
+    "price": 0.4443,
+    "P_model": 0.5793,
+    "won": 0.4752,
+    "edge_vs_price": 0.0308
+   },
+   "(0.2, 1.0]": {
+    "n": 105,
+    "price": 0.4657,
+    "P_model": 0.7449,
+    "won": 0.6,
+    "edge_vs_price": 0.1343
+   }
+  },
+  "logit_price_only": {
+   "params": [
+    0.14,
+    1.122
+   ],
+   "se": [
+    0.03,
+    0.048
+   ],
+   "llf": -6409.1
+  },
+  "logit_price_plus_model": {
+   "params": [
+    0.215,
+    0.986,
+    0.158
+   ],
+   "se": [
+    0.035,
+    0.057,
+    0.036
+   ],
+   "llf": -6399.4
+  },
+  "by_price_and_agree": {
+   "(0.3, 0.4]|agree=False": {
+    "n": 2346,
+    "price": 0.3503,
+    "won": 0.3598,
+    "edge": 0.0095
+   },
+   "(0.3, 0.4]|agree=True": {
+    "n": 2393,
+    "price": 0.3537,
+    "won": 0.3753,
+    "edge": 0.0215
+   },
+   "(0.4, 0.5]|agree=False": {
+    "n": 923,
+    "price": 0.4417,
+    "won": 0.455,
+    "edge": 0.0133
+   },
+   "(0.4, 0.5]|agree=True": {
+    "n": 1456,
+    "price": 0.444,
+    "won": 0.4952,
+    "edge": 0.0512
+   },
+   "(0.5, 0.6]|agree=False": {
+    "n": 262,
+    "price": 0.5369,
+    "won": 0.542,
+    "edge": 0.0051
+   },
+   "(0.5, 0.6]|agree=True": {
+    "n": 553,
+    "price": 0.5414,
+    "won": 0.5678,
+    "edge": 0.0264
+   },
+   "(0.6, 0.7]|agree=False": {
+    "n": 41,
+    "price": 0.6372,
+    "won": 0.6585,
+    "edge": 0.0213
+   },
+   "(0.6, 0.7]|agree=True": {
+    "n": 180,
+    "price": 0.6425,
+    "won": 0.7056,
+    "edge": 0.0631
+   },
+   "(0.7, 0.8]|agree=False": {
+    "n": 4,
+    "price": 0.7325,
+    "won": 0.25,
+    "edge": -0.4825
+   },
+   "(0.7, 0.8]|agree=True": {
+    "n": 97,
+    "price": 0.751,
+    "won": 0.8247,
+    "edge": 0.0737
+   },
+   "(0.8, 0.95]|agree=False": {
+    "n": 1,
+    "price": 0.815,
+    "won": 1.0,
+    "edge": 0.185
+   },
+   "(0.8, 0.95]|agree=True": {
+    "n": 162,
+    "price": 0.8855,
+    "won": 0.9012,
+    "edge": 0.0158
+   }
+  },
+  "fav_by_price": {
+   "(0.3, 0.4]": {
+    "n": 4739,
+    "price": 0.352,
+    "won": 0.3676,
+    "P_model": 0.2823,
+    "edge": 0.0156,
+    "model_minus_price": -0.0697
+   },
+   "(0.4, 0.5]": {
+    "n": 2379,
+    "price": 0.4431,
+    "won": 0.4796,
+    "P_model": 0.3397,
+    "edge": 0.0365,
+    "model_minus_price": -0.1034
+   },
+   "(0.5, 0.6]": {
+    "n": 815,
+    "price": 0.5399,
+    "won": 0.5595,
+    "P_model": 0.4053,
+    "edge": 0.0196,
+    "model_minus_price": -0.1347
+   },
+   "(0.6, 0.7]": {
+    "n": 221,
+    "price": 0.6415,
+    "won": 0.6968,
+    "P_model": 0.5251,
+    "edge": 0.0554,
+    "model_minus_price": -0.1163
+   },
+   "(0.7, 0.8]": {
+    "n": 101,
+    "price": 0.7503,
+    "won": 0.802,
+    "P_model": 0.6674,
+    "edge": 0.0517,
+    "model_minus_price": -0.0829
+   },
+   "(0.8, 0.95]": {
+    "n": 163,
+    "price": 0.885,
+    "won": 0.9018,
+    "P_model": 0.7958,
+    "edge": 0.0168,
+    "model_minus_price": -0.0892
+   }
+  }
+ },
+ "favourite_oos": {
+  "by_agree": {
+   "false": {
+    "n": 3558,
+    "price": 0.3705,
+    "P_model": 0.2256,
+    "won": 0.3873,
+    "edge_vs_price": 0.0168
+   },
+   "true": {
+    "n": 4416,
+    "price": 0.4274,
+    "P_model": 0.3848,
+    "won": 0.4531,
+    "edge_vs_price": 0.0257
+   }
+  },
+  "P_agree_given_win": 0.5922,
+  "P_agree_given_loss": 0.5256,
+  "by_model_minus_price": {
+   "(-1.0, -0.2]": {
+    "n": 1045,
+    "price": 0.4718,
+    "P_model": 0.2035,
+    "won": 0.4909,
+    "edge_vs_price": 0.0191
+   },
+   "(-0.2, -0.1]": {
+    "n": 2260,
+    "price": 0.4072,
+    "P_model": 0.2646,
+    "won": 0.4164,
+    "edge_vs_price": 0.0092
+   },
+   "(-0.1, 0.0]": {
+    "n": 3295,
+    "price": 0.3826,
+    "P_model": 0.3306,
+    "won": 0.4146,
+    "edge_vs_price": 0.0319
+   },
+   "(0.0, 0.1]": {
+    "n": 1189,
+    "price": 0.3811,
+    "P_model": 0.4156,
+    "won": 0.4029,
+    "edge_vs_price": 0.0217
+   },
+   "(0.1, 0.2]": {
+    "n": 151,
+    "price": 0.4212,
+    "P_model": 0.5553,
+    "won": 0.4238,
+    "edge_vs_price": 0.0027
+   },
+   "(0.2, 1.0]": {
+    "n": 34,
+    "price": 0.4324,
+    "P_model": 0.705,
+    "won": 0.4706,
+    "edge_vs_price": 0.0382
+   }
+  },
+  "logit_price_only": {
+   "params": [
+    0.156,
+    1.141
+   ],
+   "se": [
+    0.035,
+    0.059
+   ],
+   "llf": -5139.8
+  },
+  "logit_price_plus_model": {
+   "params": [
+    0.189,
+    1.094,
+    0.06
+   ],
+   "se": [
+    0.042,
+    0.068,
+    0.044
+   ],
+   "llf": -5138.9
+  },
+  "by_price_and_agree": {
+   "(0.3, 0.4]|agree=False": {
+    "n": 1857,
+    "price": 0.351,
+    "won": 0.3673,
+    "edge": 0.0163
+   },
+   "(0.3, 0.4]|agree=True": {
+    "n": 1919,
+    "price": 0.3541,
+    "won": 0.3653,
+    "edge": 0.0112
+   },
+   "(0.4, 0.5]|agree=False": {
+    "n": 789,
+    "price": 0.4421,
+    "won": 0.4639,
+    "edge": 0.0218
+   },
+   "(0.4, 0.5]|agree=True": {
+    "n": 1264,
+    "price": 0.4438,
+    "won": 0.4984,
+    "edge": 0.0546
+   },
+   "(0.5, 0.6]|agree=False": {
+    "n": 219,
+    "price": 0.5371,
+    "won": 0.5708,
+    "edge": 0.0337
+   },
+   "(0.5, 0.6]|agree=True": {
+    "n": 474,
+    "price": 0.5403,
+    "won": 0.557,
+    "edge": 0.0166
+   },
+   "(0.6, 0.7]|agree=False": {
+    "n": 35,
+    "price": 0.6344,
+    "won": 0.7143,
+    "edge": 0.0799
+   },
+   "(0.6, 0.7]|agree=True": {
+    "n": 133,
+    "price": 0.6414,
+    "won": 0.6692,
+    "edge": 0.0277
+   },
+   "(0.7, 0.8]|agree=True": {
+    "n": 50,
+    "price": 0.7505,
+    "won": 0.9,
+    "edge": 0.1495
+   },
+   "(0.8, 0.95]|agree=False": {
+    "n": 1,
+    "price": 0.815,
+    "won": 1.0,
+    "edge": 0.185
+   },
+   "(0.8, 0.95]|agree=True": {
+    "n": 71,
+    "price": 0.8921,
+    "won": 0.9014,
+    "edge": 0.0093
+   }
+  },
+  "fav_by_price": {
+   "(0.3, 0.4]": {
+    "n": 3776,
+    "price": 0.3526,
+    "won": 0.3663,
+    "P_model": 0.2783,
+    "edge": 0.0137,
+    "model_minus_price": -0.0743
+   },
+   "(0.4, 0.5]": {
+    "n": 2053,
+    "price": 0.4432,
+    "won": 0.4851,
+    "P_model": 0.3348,
+    "edge": 0.042,
+    "model_minus_price": -0.1084
+   },
+   "(0.5, 0.6]": {
+    "n": 693,
+    "price": 0.5393,
+    "won": 0.5613,
+    "P_model": 0.3981,
+    "edge": 0.022,
+    "model_minus_price": -0.1412
+   },
+   "(0.6, 0.7]": {
+    "n": 168,
+    "price": 0.64,
+    "won": 0.6786,
+    "P_model": 0.4842,
+    "edge": 0.0386,
+    "model_minus_price": -0.1557
+   },
+   "(0.7, 0.8]": {
+    "n": 50,
+    "price": 0.7505,
+    "won": 0.9,
+    "P_model": 0.6292,
+    "edge": 0.1495,
+    "model_minus_price": -0.1213
+   },
+   "(0.8, 0.95]": {
+    "n": 72,
+    "price": 0.891,
+    "won": 0.9028,
+    "P_model": 0.7234,
+    "edge": 0.0118,
+    "model_minus_price": -0.1676
+   }
+  }
+ }
+}

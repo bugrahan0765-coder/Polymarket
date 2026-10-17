@@ -1,0 +1,1172 @@
+{
+ "amsterdam": {
+  "lat": 52.3105,
+  "lon": 4.7683,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-04-03",
+    "2026-10-16"
+   ]
+  },
+  "n": 189,
+  "lead0_bias_C": -1.97,
+  "lead0_mae_C": 2.16,
+  "lead0_bias_early_late": [
+   -2.45,
+   -1.78
+  ],
+  "fc48_bias_C": 0.56,
+  "fc48_mae_C": 0.99,
+  "share_max_hour_18_23": 0.18
+ },
+ "ankara": {
+  "lat": 40.1281,
+  "lon": 32.9951,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-01-22",
+    "2026-10-16"
+   ]
+  },
+  "n": 247,
+  "lead0_bias_C": 0.81,
+  "lead0_mae_C": 0.95,
+  "lead0_bias_early_late": [
+   0.66,
+   0.94
+  ],
+  "fc48_bias_C": 0.6,
+  "fc48_mae_C": 1.06,
+  "share_max_hour_18_23": 0.069
+ },
+ "atlanta": {
+  "lat": 33.6407,
+  "lon": -84.4277,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "F": [
+    "2025-12-06",
+    "2026-10-15"
+   ]
+  },
+  "n": 255,
+  "lead0_bias_C": 0.19,
+  "lead0_mae_C": 0.66,
+  "lead0_bias_early_late": [
+   0.41,
+   0.0
+  ],
+  "fc48_bias_C": -0.66,
+  "fc48_mae_C": 1.67,
+  "share_max_hour_18_23": 0.161
+ },
+ "austin": {
+  "lat": 30.1975,
+  "lon": -97.6664,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "F": [
+    "2026-03-24",
+    "2026-10-15"
+   ]
+  },
+  "n": 164,
+  "lead0_bias_C": 0.29,
+  "lead0_mae_C": 0.54,
+  "lead0_bias_early_late": [
+   -0.06,
+   0.37
+  ],
+  "fc48_bias_C": -1.3,
+  "fc48_mae_C": 1.88,
+  "share_max_hour_18_23": 0.159
+ },
+ "beijing": {
+  "lat": 40.0799,
+  "lon": 116.6031,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-21",
+    "2026-10-16"
+   ]
+  },
+  "n": 197,
+  "lead0_bias_C": 0.7,
+  "lead0_mae_C": 1.27,
+  "lead0_bias_early_late": [
+   0.55,
+   0.77
+  ],
+  "fc48_bias_C": 0.68,
+  "fc48_mae_C": 1.42,
+  "share_max_hour_18_23": 0.046
+ },
+ "buenos-aires": {
+  "lat": -34.8222,
+  "lon": -58.5358,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2025-12-06",
+    "2026-10-16"
+   ]
+  },
+  "n": 257,
+  "lead0_bias_C": 0.76,
+  "lead0_mae_C": 0.95,
+  "lead0_bias_early_late": [
+   1.08,
+   0.46
+  ],
+  "fc48_bias_C": 0.9,
+  "fc48_mae_C": 1.45,
+  "share_max_hour_18_23": 0.047
+ },
+ "busan": {
+  "lat": 35.1795,
+  "lon": 128.9382,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-04-03",
+    "2026-10-16"
+   ]
+  },
+  "n": 189,
+  "lead0_bias_C": 1.48,
+  "lead0_mae_C": 1.62,
+  "lead0_bias_early_late": [
+   1.42,
+   1.5
+  ],
+  "fc48_bias_C": 1.26,
+  "fc48_mae_C": 1.75,
+  "share_max_hour_18_23": 0.116
+ },
+ "cape-town": {
+  "lat": -33.9715,
+  "lon": 18.6021,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-04-09",
+    "2026-10-16"
+   ]
+  },
+  "n": 180,
+  "lead0_bias_C": -0.26,
+  "lead0_mae_C": 1.09,
+  "lead0_bias_early_late": [
+   0.01,
+   -0.35
+  ],
+  "fc48_bias_C": 0.15,
+  "fc48_mae_C": 1.4,
+  "share_max_hour_18_23": 0.011
+ },
+ "chengdu": {
+  "lat": 30.5785,
+  "lon": 103.9471,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-21",
+    "2026-10-16"
+   ]
+  },
+  "n": 188,
+  "lead0_bias_C": 0.8,
+  "lead0_mae_C": 1.42,
+  "lead0_bias_early_late": [
+   0.81,
+   0.79
+  ],
+  "fc48_bias_C": 0.03,
+  "fc48_mae_C": 1.88,
+  "share_max_hour_18_23": 0.229
+ },
+ "chicago": {
+  "lat": 41.9742,
+  "lon": -87.9073,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "F": [
+    "2025-12-04",
+    "2026-10-15"
+   ]
+  },
+  "n": 208,
+  "lead0_bias_C": -0.25,
+  "lead0_mae_C": 0.68,
+  "lead0_bias_early_late": [
+   -0.43,
+   -0.15
+  ],
+  "fc48_bias_C": -0.66,
+  "fc48_mae_C": 1.63,
+  "share_max_hour_18_23": 0.111
+ },
+ "chongqing": {
+  "lat": 29.7192,
+  "lon": 106.6417,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-21",
+    "2026-10-16"
+   ]
+  },
+  "n": 191,
+  "lead0_bias_C": 0.61,
+  "lead0_mae_C": 1.38,
+  "lead0_bias_early_late": [
+   0.42,
+   0.71
+  ],
+  "fc48_bias_C": 0.42,
+  "fc48_mae_C": 1.79,
+  "share_max_hour_18_23": 0.131
+ },
+ "dallas": {
+  "lat": 32.8471,
+  "lon": -96.8518,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "F": [
+    "2025-12-04",
+    "2026-10-15"
+   ]
+  },
+  "n": 237,
+  "lead0_bias_C": -0.47,
+  "lead0_mae_C": 0.75,
+  "lead0_bias_early_late": [
+   -0.38,
+   -0.54
+  ],
+  "fc48_bias_C": -1.08,
+  "fc48_mae_C": 1.87,
+  "share_max_hour_18_23": 0.249
+ },
+ "denver": {
+  "lat": 39.8561,
+  "lon": -104.6737,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "F": [
+    "2025-12-04",
+    "2026-10-15"
+   ]
+  },
+  "n": 162,
+  "lead0_bias_C": 0.47,
+  "lead0_mae_C": 0.78,
+  "lead0_bias_early_late": [
+   0.34,
+   0.51
+  ],
+  "fc48_bias_C": -0.34,
+  "fc48_mae_C": 1.42,
+  "share_max_hour_18_23": 0.031
+ },
+ "guangzhou": {
+  "lat": 23.3924,
+  "lon": 113.2988,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-04-18",
+    "2026-10-16"
+   ]
+  },
+  "n": 176,
+  "lead0_bias_C": 1.22,
+  "lead0_mae_C": 1.46,
+  "lead0_bias_early_late": [
+   0.97,
+   1.3
+  ],
+  "fc48_bias_C": 1.11,
+  "fc48_mae_C": 1.74,
+  "share_max_hour_18_23": 0.006
+ },
+ "helsinki": {
+  "lat": 60.3172,
+  "lon": 24.9633,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-04-03",
+    "2026-10-16"
+   ]
+  },
+  "n": 187,
+  "lead0_bias_C": -1.15,
+  "lead0_mae_C": 1.19,
+  "lead0_bias_early_late": [
+   -1.44,
+   -1.04
+  ],
+  "fc48_bias_C": -0.09,
+  "fc48_mae_C": 1.0,
+  "share_max_hour_18_23": 0.112
+ },
+ "hong-kong": {
+  "lat": 22.3022,
+  "lon": 114.1742,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-13",
+    "2026-10-15"
+   ]
+  },
+  "n": 196,
+  "lead0_bias_C": 0.59,
+  "lead0_mae_C": 0.95,
+  "lead0_bias_early_late": [
+   0.67,
+   0.55
+  ],
+  "fc48_bias_C": 1.17,
+  "fc48_mae_C": 1.46,
+  "share_max_hour_18_23": 0.056
+ },
+ "houston": {
+  "lat": 29.6454,
+  "lon": -95.2789,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "F": [
+    "2026-03-24",
+    "2026-10-15"
+   ]
+  },
+  "n": 176,
+  "lead0_bias_C": -0.41,
+  "lead0_mae_C": 0.71,
+  "lead0_bias_early_late": [
+   -0.55,
+   -0.37
+  ],
+  "fc48_bias_C": -1.47,
+  "fc48_mae_C": 1.76,
+  "share_max_hour_18_23": 0.074
+ },
+ "istanbul": {
+  "lat": 41.2753,
+  "lon": 28.7519,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-30",
+    "2026-10-16"
+   ]
+  },
+  "n": 186,
+  "lead0_bias_C": 0.08,
+  "lead0_mae_C": 0.57,
+  "lead0_bias_early_late": [
+   0.11,
+   0.07
+  ],
+  "fc48_bias_C": -0.27,
+  "fc48_mae_C": 0.82,
+  "share_max_hour_18_23": 0.043
+ },
+ "jakarta": {
+  "lat": -6.1256,
+  "lon": 106.6559,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-04-03",
+    "2026-05-21"
+   ]
+  },
+  "n": 45,
+  "lead0_bias_C": 1.71,
+  "lead0_mae_C": 1.74,
+  "lead0_bias_early_late": [
+   1.71,
+   NaN
+  ],
+  "fc48_bias_C": 2.75,
+  "fc48_mae_C": 2.82,
+  "share_max_hour_18_23": 0.0
+ },
+ "jeddah": {
+  "lat": 21.6796,
+  "lon": 39.1565,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-04-09",
+    "2026-10-16"
+   ]
+  },
+  "n": 155,
+  "lead0_bias_C": -0.78,
+  "lead0_mae_C": 1.1,
+  "lead0_bias_early_late": [
+   -0.59,
+   -0.85
+  ],
+  "fc48_bias_C": -0.29,
+  "fc48_mae_C": 1.03,
+  "share_max_hour_18_23": 0.0
+ },
+ "jinan": {
+  "lat": 36.8572,
+  "lon": 117.216,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-08-07",
+    "2026-09-29"
+   ]
+  },
+  "n": 4,
+  "lead0_bias_C": -0.4,
+  "lead0_mae_C": 0.4,
+  "lead0_bias_early_late": [
+   NaN,
+   -0.4
+  ],
+  "fc48_bias_C": -1.45,
+  "fc48_mae_C": 1.5,
+  "share_max_hour_18_23": 0.0
+ },
+ "karachi": {
+  "lat": 24.9065,
+  "lon": 67.1608,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-04-18",
+    "2026-10-16"
+   ]
+  },
+  "n": 168,
+  "lead0_bias_C": -0.3,
+  "lead0_mae_C": 0.68,
+  "lead0_bias_early_late": [
+   -0.93,
+   -0.15
+  ],
+  "fc48_bias_C": -0.34,
+  "fc48_mae_C": 1.01,
+  "share_max_hour_18_23": 0.0
+ },
+ "kuala-lumpur": {
+  "lat": 2.7456,
+  "lon": 101.7072,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-04-03",
+    "2026-10-16"
+   ]
+  },
+  "n": 191,
+  "lead0_bias_C": 0.44,
+  "lead0_mae_C": 0.88,
+  "lead0_bias_early_late": [
+   0.63,
+   0.36
+  ],
+  "fc48_bias_C": 1.36,
+  "fc48_mae_C": 1.6,
+  "share_max_hour_18_23": 0.01
+ },
+ "lagos": {
+  "lat": 6.5774,
+  "lon": 3.3212,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-04-09",
+    "2026-05-15"
+   ]
+  },
+  "n": 32,
+  "lead0_bias_C": 1.1,
+  "lead0_mae_C": 1.65,
+  "lead0_bias_early_late": [
+   1.1,
+   NaN
+  ],
+  "fc48_bias_C": 1.17,
+  "fc48_mae_C": 1.7,
+  "share_max_hour_18_23": 0.0
+ },
+ "london": {
+  "lat": 51.5053,
+  "lon": 0.0553,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2025-12-11",
+    "2026-10-16"
+   ],
+   "F": [
+    "2025-10-15",
+    "2025-12-10"
+   ]
+  },
+  "n": 344,
+  "lead0_bias_C": 0.06,
+  "lead0_mae_C": 0.47,
+  "lead0_bias_early_late": [
+   0.12,
+   -0.02
+  ],
+  "fc48_bias_C": 0.61,
+  "fc48_mae_C": 1.09,
+  "share_max_hour_18_23": 0.294
+ },
+ "los-angeles": {
+  "lat": 33.9416,
+  "lon": -118.4085,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "F": [
+    "2026-03-24",
+    "2026-10-15"
+   ]
+  },
+  "n": 191,
+  "lead0_bias_C": -0.17,
+  "lead0_mae_C": 0.46,
+  "lead0_bias_early_late": [
+   -0.1,
+   -0.2
+  ],
+  "fc48_bias_C": -0.51,
+  "fc48_mae_C": 1.4,
+  "share_max_hour_18_23": 0.016
+ },
+ "lucknow": {
+  "lat": 26.7606,
+  "lon": 80.8893,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-05",
+    "2026-10-16"
+   ]
+  },
+  "n": 167,
+  "lead0_bias_C": 0.52,
+  "lead0_mae_C": 0.82,
+  "lead0_bias_early_late": [
+   0.43,
+   0.55
+  ],
+  "fc48_bias_C": 0.66,
+  "fc48_mae_C": 1.23,
+  "share_max_hour_18_23": 0.006
+ },
+ "madrid": {
+  "lat": 40.4983,
+  "lon": -3.5676,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-16",
+    "2026-10-16"
+   ]
+  },
+  "n": 206,
+  "lead0_bias_C": 0.55,
+  "lead0_mae_C": 0.73,
+  "lead0_bias_early_late": [
+   0.36,
+   0.64
+  ],
+  "fc48_bias_C": 0.49,
+  "fc48_mae_C": 0.94,
+  "share_max_hour_18_23": 0.461
+ },
+ "manila": {
+  "lat": 14.5086,
+  "lon": 121.0198,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-04-18",
+    "2026-10-16"
+   ]
+  },
+  "n": 179,
+  "lead0_bias_C": 0.25,
+  "lead0_mae_C": 0.85,
+  "lead0_bias_early_late": [
+   -0.08,
+   0.36
+  ],
+  "fc48_bias_C": 0.96,
+  "fc48_mae_C": 1.38,
+  "share_max_hour_18_23": 0.0
+ },
+ "mexico-city": {
+  "lat": 19.4361,
+  "lon": -99.0719,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-30",
+    "2026-10-15"
+   ]
+  },
+  "n": 145,
+  "lead0_bias_C": 0.62,
+  "lead0_mae_C": 1.13,
+  "lead0_bias_early_late": [
+   -0.1,
+   0.71
+  ],
+  "fc48_bias_C": 0.95,
+  "fc48_mae_C": 1.6,
+  "share_max_hour_18_23": 0.0
+ },
+ "miami": {
+  "lat": 25.7959,
+  "lon": -80.287,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "F": [
+    "2025-12-04",
+    "2026-10-15"
+   ]
+  },
+  "n": 254,
+  "lead0_bias_C": 0.37,
+  "lead0_mae_C": 0.66,
+  "lead0_bias_early_late": [
+   0.28,
+   0.46
+  ],
+  "fc48_bias_C": -0.54,
+  "fc48_mae_C": 1.0,
+  "share_max_hour_18_23": 0.02
+ },
+ "milan": {
+  "lat": 45.6306,
+  "lon": 8.7281,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-16",
+    "2026-10-16"
+   ]
+  },
+  "n": 198,
+  "lead0_bias_C": 0.22,
+  "lead0_mae_C": 0.56,
+  "lead0_bias_early_late": [
+   0.33,
+   0.17
+  ],
+  "fc48_bias_C": 0.12,
+  "fc48_mae_C": 0.91,
+  "share_max_hour_18_23": 0.232
+ },
+ "moscow": {
+  "lat": 55.9726,
+  "lon": 37.4146,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-30",
+    "2026-10-16"
+   ]
+  },
+  "n": 188,
+  "lead0_bias_C": 0.31,
+  "lead0_mae_C": 0.79,
+  "lead0_bias_early_late": [
+   -0.07,
+   0.46
+  ],
+  "fc48_bias_C": 0.09,
+  "fc48_mae_C": 1.24,
+  "share_max_hour_18_23": 0.16
+ },
+ "munich": {
+  "lat": 48.3538,
+  "lon": 11.7861,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-05",
+    "2026-10-16"
+   ]
+  },
+  "n": 212,
+  "lead0_bias_C": 0.28,
+  "lead0_mae_C": 0.49,
+  "lead0_bias_early_late": [
+   0.3,
+   0.26
+  ],
+  "fc48_bias_C": 0.72,
+  "fc48_mae_C": 1.19,
+  "share_max_hour_18_23": 0.16
+ },
+ "nyc": {
+  "lat": 40.7769,
+  "lon": -73.874,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "F": [
+    "2025-10-15",
+    "2026-10-15"
+   ]
+  },
+  "n": 324,
+  "lead0_bias_C": -0.38,
+  "lead0_mae_C": 0.71,
+  "lead0_bias_early_late": [
+   -0.32,
+   -0.46
+  ],
+  "fc48_bias_C": -0.43,
+  "fc48_mae_C": 1.5,
+  "share_max_hour_18_23": 0.145
+ },
+ "panama": {
+  "lat": 9.0714,
+  "lon": -79.3835,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-04-03",
+    "2026-10-15"
+   ]
+  },
+  "n": 148,
+  "lead0_bias_C": 0.17,
+  "lead0_mae_C": 0.94,
+  "lead0_bias_early_late": [
+   -0.52,
+   0.29
+  ],
+  "fc48_bias_C": 0.99,
+  "fc48_mae_C": 1.41,
+  "share_max_hour_18_23": 0.0
+ },
+ "paris": {
+  "lat": 49.0097,
+  "lon": 2.5479,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-02-11",
+    "2026-10-16"
+   ]
+  },
+  "n": 231,
+  "lead0_bias_C": 0.75,
+  "lead0_mae_C": 0.81,
+  "lead0_bias_early_late": [
+   0.56,
+   0.89
+  ],
+  "fc48_bias_C": 0.71,
+  "fc48_mae_C": 1.18,
+  "share_max_hour_18_23": 0.329
+ },
+ "qingdao": {
+  "lat": 36.2661,
+  "lon": 120.3744,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-04-27",
+    "2026-10-16"
+   ]
+  },
+  "n": 162,
+  "lead0_bias_C": -0.58,
+  "lead0_mae_C": 1.05,
+  "lead0_bias_early_late": [
+   -0.28,
+   -0.65
+  ],
+  "fc48_bias_C": -0.66,
+  "fc48_mae_C": 1.35,
+  "share_max_hour_18_23": 0.0
+ },
+ "san-francisco": {
+  "lat": 37.6213,
+  "lon": -122.379,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "F": [
+    "2026-03-24",
+    "2026-10-15"
+   ]
+  },
+  "n": 179,
+  "lead0_bias_C": -0.96,
+  "lead0_mae_C": 1.22,
+  "lead0_bias_early_late": [
+   -0.5,
+   -1.13
+  ],
+  "fc48_bias_C": -0.13,
+  "fc48_mae_C": 1.54,
+  "share_max_hour_18_23": 0.0
+ },
+ "sao-paulo": {
+  "lat": -23.4356,
+  "lon": -46.4731,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-02-11",
+    "2026-10-16"
+   ]
+  },
+  "n": 232,
+  "lead0_bias_C": 0.4,
+  "lead0_mae_C": 1.04,
+  "lead0_bias_early_late": [
+   0.33,
+   0.46
+  ],
+  "fc48_bias_C": 0.31,
+  "fc48_mae_C": 1.41,
+  "share_max_hour_18_23": 0.0
+ },
+ "seattle": {
+  "lat": 47.4502,
+  "lon": -122.3088,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "F": [
+    "2025-12-06",
+    "2026-10-15"
+   ]
+  },
+  "n": 262,
+  "lead0_bias_C": 0.34,
+  "lead0_mae_C": 0.58,
+  "lead0_bias_early_late": [
+   0.49,
+   0.19
+  ],
+  "fc48_bias_C": -0.74,
+  "fc48_mae_C": 1.77,
+  "share_max_hour_18_23": 0.115
+ },
+ "seoul": {
+  "lat": 37.4602,
+  "lon": 126.4407,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2025-12-06",
+    "2026-10-16"
+   ]
+  },
+  "n": 279,
+  "lead0_bias_C": 2.5,
+  "lead0_mae_C": 2.9,
+  "lead0_bias_early_late": [
+   2.21,
+   2.81
+  ],
+  "fc48_bias_C": 1.98,
+  "fc48_mae_C": 2.43,
+  "share_max_hour_18_23": 0.509
+ },
+ "shanghai": {
+  "lat": 31.1443,
+  "lon": 121.8083,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-13",
+    "2026-10-16"
+   ]
+  },
+  "n": 210,
+  "lead0_bias_C": 0.28,
+  "lead0_mae_C": 0.88,
+  "lead0_bias_early_late": [
+   0.52,
+   0.15
+  ],
+  "fc48_bias_C": 0.57,
+  "fc48_mae_C": 1.26,
+  "share_max_hour_18_23": 0.033
+ },
+ "shenzhen": {
+  "lat": 22.6393,
+  "lon": 113.8107,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-21",
+    "2026-10-16"
+   ]
+  },
+  "n": 202,
+  "lead0_bias_C": -0.44,
+  "lead0_mae_C": 1.17,
+  "lead0_bias_early_late": [
+   -0.92,
+   -0.22
+  ],
+  "fc48_bias_C": 0.12,
+  "fc48_mae_C": 1.38,
+  "share_max_hour_18_23": 0.035
+ },
+ "singapore": {
+  "lat": 1.3644,
+  "lon": 103.9915,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-13",
+    "2026-10-16"
+   ]
+  },
+  "n": 212,
+  "lead0_bias_C": 0.27,
+  "lead0_mae_C": 0.8,
+  "lead0_bias_early_late": [
+   0.68,
+   0.05
+  ],
+  "fc48_bias_C": 1.02,
+  "fc48_mae_C": 1.4,
+  "share_max_hour_18_23": 0.033
+ },
+ "taipei": {
+  "lat": 25.0694,
+  "lon": 121.5525,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-17",
+    "2026-10-16"
+   ]
+  },
+  "n": 195,
+  "lead0_bias_C": 1.14,
+  "lead0_mae_C": 1.66,
+  "lead0_bias_early_late": [
+   0.6,
+   1.39
+  ],
+  "fc48_bias_C": 1.46,
+  "fc48_mae_C": 1.9,
+  "share_max_hour_18_23": 0.015
+ },
+ "tel-aviv": {
+  "lat": 32.0055,
+  "lon": 34.8854,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-10",
+    "2026-10-16"
+   ]
+  },
+  "n": 212,
+  "lead0_bias_C": 0.01,
+  "lead0_mae_C": 0.44,
+  "lead0_bias_early_late": [
+   0.2,
+   -0.09
+  ],
+  "fc48_bias_C": 0.26,
+  "fc48_mae_C": 0.69,
+  "share_max_hour_18_23": 0.009
+ },
+ "tokyo": {
+  "lat": 35.5494,
+  "lon": 139.7798,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-10",
+    "2026-10-16"
+   ]
+  },
+  "n": 202,
+  "lead0_bias_C": 0.88,
+  "lead0_mae_C": 1.04,
+  "lead0_bias_early_late": [
+   1.03,
+   0.8
+  ],
+  "fc48_bias_C": 0.78,
+  "fc48_mae_C": 1.48,
+  "share_max_hour_18_23": 0.144
+ },
+ "toronto": {
+  "lat": 43.6777,
+  "lon": -79.6248,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2025-12-06",
+    "2026-10-15"
+   ]
+  },
+  "n": 263,
+  "lead0_bias_C": 0.02,
+  "lead0_mae_C": 0.55,
+  "lead0_bias_early_late": [
+   0.14,
+   -0.11
+  ],
+  "fc48_bias_C": 0.01,
+  "fc48_mae_C": 1.22,
+  "share_max_hour_18_23": 0.163
+ },
+ "warsaw": {
+  "lat": 52.1657,
+  "lon": 20.9671,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-16",
+    "2026-10-16"
+   ]
+  },
+  "n": 197,
+  "lead0_bias_C": -0.93,
+  "lead0_mae_C": 1.28,
+  "lead0_bias_early_late": [
+   -0.56,
+   -1.11
+  ],
+  "fc48_bias_C": 0.29,
+  "fc48_mae_C": 1.09,
+  "share_max_hour_18_23": 0.102
+ },
+ "wellington": {
+  "lat": -41.3272,
+  "lon": 174.8053,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-01-22",
+    "2026-10-16"
+   ]
+  },
+  "n": 243,
+  "lead0_bias_C": 0.72,
+  "lead0_mae_C": 0.83,
+  "lead0_bias_early_late": [
+   0.79,
+   0.67
+  ],
+  "fc48_bias_C": 0.85,
+  "fc48_mae_C": 1.01,
+  "share_max_hour_18_23": 0.091
+ },
+ "wuhan": {
+  "lat": 30.7838,
+  "lon": 114.2081,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-03-21",
+    "2026-10-16"
+   ]
+  },
+  "n": 202,
+  "lead0_bias_C": 0.46,
+  "lead0_mae_C": 1.28,
+  "lead0_bias_early_late": [
+   0.07,
+   0.66
+  ],
+  "fc48_bias_C": 0.32,
+  "fc48_mae_C": 1.79,
+  "share_max_hour_18_23": 0.035
+ },
+ "zhengzhou": {
+  "lat": 34.5197,
+  "lon": 113.8409,
+  "verified": false,
+  "source": "GUESS in src/a4_fetch_forecasts.py",
+  "unit_history": {
+   "C": [
+    "2026-08-07",
+    "2026-10-01"
+   ]
+  },
+  "n": 34,
+  "lead0_bias_C": 0.88,
+  "lead0_mae_C": 1.34,
+  "lead0_bias_early_late": [
+   NaN,
+   0.88
+  ],
+  "fc48_bias_C": 1.01,
+  "fc48_mae_C": 1.86,
+  "share_max_hour_18_23": 0.059
+ }
+}
