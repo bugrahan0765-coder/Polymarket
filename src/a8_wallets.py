@@ -13,10 +13,15 @@ SEL_END = pd.Timestamp('2026-04-01', tz='UTC').timestamp()
 TEST_START = pd.Timestamp('2026-05-01', tz='UTC').timestamp()
 
 meta = load_meta(HF)[['market_id', 'cat', 'win1', 'end_ts']]
-c = duckdb.connect(); c.execute("SET memory_limit='9GB'"); c.execute("SET threads=4")
+c = duckdb.connect(); c.execute("SET memory_limit='4GB'"); c.execute("SET threads=3"); c.execute("SET temp_directory='../hf_data/duck_tmp'"); c.execute('SET preserve_insertion_order=false')
 c.register('meta_df', meta)
-c.execute(f"""create table pos as
-select wallet, market_id,
+import os
+os.makedirs(f'{HF}/wallet_pos', exist_ok=True)
+NB = 32  # aggregate in wallet-hash buckets to bound memory (537M input rows)
+for k in range(NB):
+    p = f'{HF}/wallet_pos/b{k:02d}.parquet'
+    if os.path.exists(p): continue
+    c.execute(f"""copy (select wallet, market_id,
   sum(case when tok=1 and buy then shares when tok=1 then -shares else 0 end) net1,
   sum(case when tok=2 and buy then shares when tok=2 then -shares else 0 end) net2,
   sum(case when buy then -usd else usd end) cash,
@@ -25,9 +30,13 @@ select wallet, market_id,
   min(case when buy and tok=1 then t_first end) tb1, min(case when buy and tok=2 then t_first end) tb2,
   sum(case when buy and tok=1 then usd end) / nullif(sum(case when buy and tok=1 then shares end), 0) px1,
   sum(case when buy and tok=2 then usd end) / nullif(sum(case when buy and tok=2 then shares end), 0) px2
-from read_parquet('{HF}/ext/wallets/*.parquet') group by wallet, market_id""")
-c.execute("""create table pm as select p.*, m.cat, m.win1, m.end_ts, p.net1*m.win1 + p.net2*(1-m.win1) + p.cash pnl
-             from pos p join meta_df m using (market_id)""")
+from read_parquet('{HF}/ext/wallets/*.parquet') where hash(wallet) % {NB} = {k} group by wallet, market_id) to '{p}' (format parquet, compression zstd)""")
+    print('bucket', k, flush=True)
+c.execute(f"create view pos as select * from read_parquet('{HF}/wallet_pos/*.parquet')")
+if not os.path.exists(f'{HF}/wallet_pm.parquet'):
+    c.execute(f"""copy (select p.*, m.cat, m.win1, m.end_ts, p.net1*m.win1 + p.net2*(1-m.win1) + p.cash pnl
+                 from pos p join meta_df m using (market_id)) to '{HF}/wallet_pm.parquet' (format parquet, compression zstd)""")
+c.execute(f"create view pm as select * from read_parquet('{HF}/wallet_pm.parquet')")
 print(c.execute("select count(*), count(distinct wallet), count(distinct market_id) from pm").fetchall())
 # exclude infrastructure addresses (exchange / adapters) by sheer breadth
 c.execute("create table infra as select wallet from pm group by wallet having count(*) > 200000")

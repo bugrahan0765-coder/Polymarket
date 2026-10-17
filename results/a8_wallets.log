@@ -1,0 +1,44 @@
+bucket 0
+bucket 1
+bucket 2
+bucket 3
+bucket 4
+bucket 5
+bucket 6
+bucket 7
+bucket 8
+bucket 9
+bucket 10
+bucket 11
+bucket 12
+bucket 13
+bucket 14
+bucket 15
+bucket 16
+bucket 17
+bucket 18
+bucket 19
+bucket 20
+bucket 21
+bucket 22
+bucket 23
+bucket 24
+bucket 25
+bucket 26
+bucket 27
+bucket 28
+bucket 29
+bucket 30
+bucket 31
+[(263985139, 2164873, 1901233)]
+infra wallets excluded: [('0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6',), ('0x50b977391c4b3dd88b0a0bef03c3434fe4284298',), ('0x1ed098fda89bfa00fe77a52905c818fe9e473802',), ('0x674887d1ac838099a48b629dff53f25b7b87ee08',), ('0x46b353667fd7d846af3bbeda6584b0e5b883d3de',), ('0xeab7b0a830a1755f1296fee950b3080e3529b389',), ('0x20d2309cd92b797ae7ca175ed828ed8a27fbe29d',), ('0x3329cfc2b8d8ceb8d198f081bdf4262f421f43a6',)]
+192,442 wallets with >= 20 resolved markets before selection cut
+t>=3 taker>=0.5 roi>=0.05    wallets=  700 active_in_test=  339 test_pnl=     3,527,342 test_roi=0.0438 share_positive=0.590
+t>=3 any                     wallets= 8400 active_in_test= 4327 test_pnl=    13,273,623 test_roi=0.0107 share_positive=0.612
+t>=5 any                     wallets= 4379 active_in_test= 2134 test_pnl=     8,289,239 test_roi=0.0111 share_positive=0.622
+top100 pnl                   wallets=  100 active_in_test=   51 test_pnl=    18,831,409 test_roi=0.0290 share_positive=0.647
+t<=-3 (losers)               wallets= 5168 active_in_test= 3132 test_pnl=    -2,344,104 test_roi=-0.0567 share_positive=0.182
+all                          wallets=192062 active_in_test=95907 test_pnl=    17,279,249 test_roi=0.0038 share_positive=0.405
+{'delay_s': 60, 'markets': 180752, 'roi_copy': np.float64(-0.1841), 'ci': [np.float64(-0.1888), np.float64(-0.1793)], 'roi_theirs': np.float64(-0.0305), 'by_cat': {'crypto': {'size': 155574, 'mean': -0.2189}, 'finance': {'size': 1060, 'mean': 0.0488}, 'geopolitics': {'size': 586, 'mean': -0.1421}, 'other': {'size': 5501, 'mean': 0.0593}, 'politics': {'size': 625, 'mean': 0.0286}, 'sports': {'size': 13836, 'mean': 0.0235}, 'weather': {'size': 3570, 'mean': 0.0387}}}
+{'delay_s': 300, 'markets': 175708, 'roi_copy': np.float64(-0.1971), 'ci': [np.float64(-0.2022), np.float64(-0.1919)], 'roi_theirs': np.float64(-0.0405), 'by_cat': {'crypto': {'size': 150704, 'mean': -0.234}, 'finance': {'size': 1056, 'mean': 0.0554}, 'geopolitics': {'size': 587, 'mean': -0.1471}, 'other': {'size': 5467, 'mean': 0.0535}, 'politics': {'size': 622, 'mean': 0.0284}, 'sports': {'size': 13719, 'mean': 0.0187}, 'weather': {'size': 3553, 'mean': 0.0278}}}
+{'delay_s': 3600, 'markets': 27101, 'roi_copy': np.float64(-0.2331), 'ci': [np.float64(-0.253), np.float64(-0.213)], 'roi_theirs': np.float64(-0.0436), 'by_cat': {'crypto': {'size': 9193, 'mean': -0.5081}, 'finance': {'size': 934, 'mean': -0.0076}, 'geopolitics': {'size': 566, 'mean': -0.197}, 'other': {'size': 4432, 'mean': -0.0745}, 'politics': {'size': 534, 'mean': -0.023}, 'sports': {'size': 8119, 'mean': -0.1222}, 'weather': {'size': 3323, 'mean': -0.0581}}}
